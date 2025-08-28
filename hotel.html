@@ -513,24 +513,23 @@
         </style>
     </section>
 
-    <!-- Before After Comparison Section -->
-    <section class="before-after-section">
+    <!-- Before After Comparison Section (weiter vor) -->
+    <section class="before-after-section" style="padding: 8rem 0 8rem 0;">
         <div class="container">
-            <div class="comparison-layout">
-                <div class="comparison-text">
-                    <h3>Vorher/Nachher – Hotel-Reinigung</h3>
-                    <p class="intro">
-                        Sehen Sie den Unterschied: Mit Dr. Sauber-Technologie erreichen Sie 
-                        perfekte Sauberkeit in weniger Zeit – ohne Chemie, ohne Kompromisse.
-                    </p>
+            <div class="comparison-wrapper grid-h1 horizontal" style="position: relative; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.15); max-width: 1200px; margin: 0 auto;">
+                <div class="comparison-image" style="height: 500px; width: 100%;">
+                    <img src="assets/images/dirty.png" alt="Vorher" class="before-image" style="height: 100%; width: 100%; object-fit: cover;">
+                    <img src="assets/images/RoomClean_home.png" alt="Nachher" class="after-image" style="height: 100%; width: 100%; object-fit: cover;">
                 </div>
-                <div class="comparison-grid template-grid">
-                    <!-- Horizontal Vergleich -->
-                    <div class="comparison-wrapper grid-h1 horizontal">
-                        <div class="comparison-image">
-                            <img src="assets/images/RoomDirty_home.png" alt="Hotelzimmer vorher" class="before-image">
-                            <img src="assets/images/RoomClean_home.png" alt="Hotelzimmer nachher" class="after-image">
+                        
+                        <!-- Vorher/Nachher Labels direkt im Bild -->
+                        <div style="position: absolute; top: 30px; left: 30px; background: rgba(3, 152, 158, 0.9); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; font-weight: 700; font-size: 1.1rem; backdrop-filter: blur(10px); box-shadow: 0 8px 25px rgba(0,0,0,0.2);">
+                            Vorher
                         </div>
+                        <div style="position: absolute; top: 30px; right: 30px; background: rgba(3, 152, 158, 0.9); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; font-weight: 700; font-size: 1.1rem; backdrop-filter: blur(10px); box-shadow: 0 8px 25px rgba(0,0,0,0.2);">
+                            Nachher
+                        </div>
+                        
                         <div class="comparison-slider"><div class="slider-handle"><div class="handle-icon">↔</div></div><div class="slider-line"></div></div>
                     </div>
                 </div>
