@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nachhaltige Reinigung – Sauberkeit, die bleibt | Dr. Sauber</title>
+    <meta name="description" content="Nachhaltige Reinigung ohne Chemie: Wasserstaubsauger & Dampfreiniger für länger saubere Räume, weniger Aufwand und bessere Luft.">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="performance-optimizer.js" defer></script>
+    <style>
+        /* Anpassung der Service-Cards Höhe für Nachhaltigkeitsseite */
+        .nachhaltigkeit-page .services-grid-content {
+            align-items: stretch;
+        }
+        
+        .nachhaltigkeit-page .services-grid-middle,
+        .nachhaltigkeit-page .services-grid-right {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .nachhaltigkeit-page .service-card {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        
+        .nachhaltigkeit-page .service-card p {
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+        
+        /* Sicherstellen, dass die rechten Spalten die gleiche Höhe wie das linke Bild haben */
+        .nachhaltigkeit-page .services-grid-middle,
+        .nachhaltigkeit-page .services-grid-right {
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="nachhaltigkeit-page">
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none;">
+                    <img src="assets/images/Logo.png" alt="Dr. Sauber - Sauberkeit, Nachhaltigkeit, Gesundheit" class="logo-image">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Startseite</a>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#products" class="mega-toggle">Produkte</a>
+                    <div class="mega-menu" role="menu" aria-label="Produkte Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/Wasserstaubsauger_Wohnzimmer.png" alt="Wasserstaubsauger"></div>
+                                <div>
+                                    <div class="mega-cta-title">Gesünder reinigen – jetzt beraten lassen</div>
+                                    <div class="mega-cta-text">Kostenlos & unverbindlich: Wir finden die beste Lösung für Ihr Zuhause.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Kostenlose Beratung <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="wasserstaubsauger.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Wasserstaubsauger_Wohnzimmer.png" alt="Wasserstaubsauger"></div>
+                                <div class="mega-product-content">
+                                    <h4>Wasserstaubsauger</h4>
+                                    <p>Staub im Wasser binden – saubere Raumluft.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="dampfreiniger.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Dampfreiniger_Wohnzimmer.png" alt="Dampfreiniger"></div>
+                                <div class="mega-product-content">
+                                    <h4>Dampfreiniger</h4>
+                                    <p>Hygienisch sauber – ganz ohne Chemie.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="workshop.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Workshop_home.avif" alt="Workshop"></div>
+                                <div class="mega-product-content">
+                                    <h4>Workshop</h4>
+                                    <p>Kostenlos testen und smart reinigen lernen.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Jetzt beraten lassen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#home" class="mega-toggle">Zu Hause</a>
+                    <div class="mega-menu" role="menu" aria-label="Zu Hause Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/familyHappy.png" alt="Tier-Haushalte Lösungen"></div>
+                                <div>
+                                    <div class="mega-cta-title">Lösungen für Tier-Haushalte</div>
+                                    <div class="mega-cta-text">Weniger Tierhaare, weniger Gerüche – kostenlos beraten lassen.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Kostenlose Beratung <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="allergiker.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/familyHappy.png" alt="Allergiker"></div>
+                                <div class="mega-product-content">
+                                    <h4>Allergiker</h4>
+                                    <p>Besser atmen – weniger Allergiesymptome.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="tier-haushalte.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/RoomClean_home.png" alt="Tier-Haushalte"></div>
+                                <div class="mega-product-content">
+                                    <h4>Tier-Haushalte</h4>
+                                    <p>Weniger Tierhaare, weniger Gerüche, mehr Wohlbefinden.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="familien.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/familyHappy.png" alt="Familien"></div>
+                                <div class="mega-product-content">
+                                    <h4>Familien</h4>
+                                    <p>Sauber, gesund & stressfrei – auch im turbulenten Familienalltag.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Jetzt beraten lassen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#commercial" class="mega-toggle">Gewerbe</a>
+                    <div class="mega-menu" role="menu" aria-label="Gewerbe Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/Airbnb.png" alt="Airbnb & Ferienwohnungen"></div>
+                                <div>
+                                    <div class="mega-cta-title">Gewerbe-Lösungen – schneller sauber</div>
+                                    <div class="mega-cta-text">Zeitkritische Reinigung? Wir optimieren Equipment & Ablauf.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Beratung anfragen <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="airbnb.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Airbnb.png" alt="AirBnB & Ferienwohnungen"></div>
+                                <div class="mega-product-content">
+                                    <h4>AirBnB & Ferienwohnungen</h4>
+                                    <p>Schneller sauber, bessere Bewertungen.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="hotel.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/RoomClean_home.png" alt="Hotels & Gastronomie"></div>
+                                <div class="mega-product-content">
+                                    <h4>Hotels & Gastronomie</h4>
+                                    <p>Perfekte Frische für hohe Auslastung.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Beratung für Gewerbe anfragen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#about" class="mega-toggle">Über uns</a>
+                    <div class="mega-menu" role="menu" aria-label="Über uns Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/familyHappy.png" alt="Dr. Sauber Team"></div>
+                                <div>
+                                    <div class="mega-cta-title">Werden Sie Teil von Dr. Sauber</div>
+                                    <div class="mega-cta-text">Entdecken Sie Ihre Möglichkeiten als Markenbotschafter oder Berater.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="karriere.html">Karriere starten <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="gesundheitsbewusst.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/familyHappy.png" alt="Gesundheitsbewusst"></div>
+                                <div class="mega-product-content">
+                                    <h4>Gesundheitsbewusst</h4>
+                                    <p>Ein Zuhause, das Ihre Gesundheit stärkt.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="delphin-schweiz.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Dampfreiniger_Wohnzimmer.png" alt="Delphin Schweiz"></div>
+                                <div class="mega-product-content">
+                                    <h4>Delphin Schweiz</h4>
+                                    <p>Unser Partner für professionelle Reinigungslösungen.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="nachhaltigkeit.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Kreislauf_image.png" alt="Nachhaltigkeit"></div>
+                                <div class="mega-product-content">
+                                    <h4>Nachhaltigkeit</h4>
+                                    <p>Sauberkeit, die bleibt – gesund für Mensch, Tier und Natur.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="kontakt.html">Kontakt aufnehmen →</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="karriere.html">Karriere</a>
+                <a href="kontakt.html">Kontakt</a>
+                <button class="btn-cta">Jetzt beraten lassen</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section - Nachhaltigkeit -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        
+        <!-- Animated Background Elements -->
+        <div class="hero-animated-elements">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="particle-field"></div>
+        </div>
+        
+        <!-- Floating KPIs -->
+        <div class="hero-kpis">
+            <div class="kpi-item">
+                <div class="kpi-number">0%</div>
+                <div class="kpi-label">Chemie</div>
+            </div>
+            <div class="kpi-item">
+                <div class="kpi-number">4-6x</div>
+                <div class="kpi-label">länger sauber</div>
+            </div>
+            <div class="kpi-item">
+                <div class="kpi-number">-42%</div>
+                <div class="kpi-label">Aufwand</div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text-container">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span class="badge-icon">🌱</span>
+                        <span class="badge-text">Nachhaltige Technologie</span>
+                    </div>
+                    <p class="subtitle">NACHHALTIGE REINIGUNGSLÖSUNGEN</p>
+                    <h2 class="hero-title">
+                        <span class="title-line">Sauberkeit, die bleibt –</span>
+                        <span class="title-highlight">gesund für Mensch,</span>
+                        <span class="title-line">Tier und Natur</span>
+                    </h2>
+                    <p class="hero-description">
+                        Nachhaltigkeit bedeutet mehr als umweltfreundlich: Unsere Reinigungssysteme sorgen dafür, 
+                        dass es schneller sauber wird, länger sauber bleibt und dabei ganz ohne Chemie auskommt. 
+                        Gleichzeitig sind die Geräte langlebig und auf viele Jahre ausgelegt.
+                    </p>
+                    <p class="hero-tagline">Schnell. Gründlich. Nachhaltig.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary" onclick="document.getElementById('kontakt').scrollIntoView({behavior: 'smooth'})">
+                            <span class="btn-text">Jetzt beraten lassen</span>
+                        </button>
+                        <button class="btn-secondary" onclick="document.getElementById('wasserstaubsauger-section').scrollIntoView({behavior: 'smooth'})">
+                            <span class="btn-text">Lösungen entdecken</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Hero Scroll Indicator -->
+        <div class="hero-scroll-indicator">
+            <div class="scroll-text">Mehr entdecken</div>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Services Grid Section -->
+    <section class="services-grid-section">
+        <div class="container">
+            <h3 class="services-grid-title">Nachhaltigkeit im Haushalt beginnt bei der Reinigung</h3>
+            <p class="services-grid-subtitle">Viele klassische Reinigungsmethoden sind weder effizient noch umweltfreundlich – im Gegenteil, sie verursachen enorme Belastungen</p>
+            <div class="services-grid-content">
+                <div class="services-grid-image">
+                    <img src="assets/images/Hausstaub_Wohnzimmer.png" alt="Nachhaltige Reinigung" class="services-main-image">
+                </div>
+                <div class="services-grid-middle">
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7V10C2 16 6 20.5 12 22C18 20.5 22 16 22 10V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Chemische Reiniger</h4>
+                        <p>Bereits eine einzige Flasche kann hunderte Liter Wasser verunreinigen.</p>
+                    </div>
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Herkömmliche Staubsauger</h4>
+                        <p>Statt Staub zu entfernen, wirbeln sie Partikel auf – die Luft bleibt belastet.</p>
+                    </div>
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h4>Kurzlebige Geräte</h4>
+                        <p>Billige Modelle landen nach wenigen Jahren im Müll und verursachen Elektroschrott.</p>
+                    </div>
+                </div>
+                <div class="services-grid-right">
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Mehr Aufwand</h4>
+                        <p>Häufigere Reinigungszyklen durch ineffiziente Methoden.</p>
+                    </div>
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Höhere Kosten</h4>
+                        <p>Ständiger Neukauf von Reinigungsmitteln und Geräten.</p>
+                    </div>
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M23 21V19C23 18.1645 22.7155 17.3541 22.2094 16.6977C21.7033 16.0414 20.9944 15.5762 20.2 15.3727" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 3.37305C16.7944 3.57625 17.5033 4.04145 18.0094 4.69775C18.5155 5.35405 18.8 6.16448 18.8 7.00005C18.8 7.83562 18.5155 8.64605 18.0094 9.30235C17.5033 9.95865 16.7944 10.4238 16 10.627" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Umweltbelastung</h4>
+                        <p>Unnötige Belastung für Mensch, Tier und Umwelt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Holistic Approach Section -->
+    <section class="holistic-section">
+        <div class="container">
+            <div class="holistic-content">
+                <div class="holistic-text">
+                    <h3>Nachhaltigkeit bedeutet anders zu reinigen</h3>
+                    <p>Das Ergebnis: Mehr Aufwand, mehr Kosten – und eine unnötige Belastung für Mensch, Tier und Umwelt.</p>
+                    <div class="holistic-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L2 7V10C2 16 6 20.5 12 22C18 20.5 22 16 22 10V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Schneller reinigen</h4>
+                                <p>Systeme, die Schmutz effizienter entfernen und spürbar Zeit sparen.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Länger sauber bleiben</h4>
+                                <p>Weniger Wiederverstaubung und damit weniger Reinigungszyklen.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Chemiefrei arbeiten</h4>
+                                <p>Reines Wasser und Dampf ersetzen aggressive Reiniger und verhindern Umweltbelastung.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-secondary holistic-btn">Mehr erfahren</button>
+                </div>
+                <div class="holistic-images">
+                    <div class="image-stack">
+                        <div class="main-image">
+                            <img src="assets/images/RoomClean_home.png" alt="Nachhaltige Reinigung" class="holistic-main-img">
+                        </div>
+                        <div class="secondary-image">
+                            <img src="assets/images/familyHappy.png" alt="Gesunde Familie" class="holistic-secondary-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wasserstaubsauger Section -->
+    <section id="wasserstaubsauger-section" class="services-section card-stack">
+        <div class="container">
+            <div class="service-item">
+                <div class="service-content">
+                    <h3>Wasserstaubsauger: Nachhaltige Sauberkeit – für länger saubere Räume</h3>
+                    <p>Im Gegensatz zu herkömmlichen Staubsaugern wirbelt der Wasserstaubsauger keinen Staub auf. Staub, Pollen und Allergene werden direkt im Wasser gebunden.</p>
+                    <p><strong>Ihre Vorteile:</strong></p>
+                    <ul>
+                        <li>Bis zu 4–6 Mal weniger Staubwischen nötig – weil sich Staub nicht sofort wieder absetzt.</li>
+                        <li>Frischere Raumluft – kein Feinstaub, keine Schadstoffe.</li>
+                        <li>Effizienter Ressourceneinsatz – nur Wasser, keine Filterbeutel oder Chemie.</li>
+                        <li>Langlebig & robust – für viele Jahre im Einsatz statt für die Müllhalde.</li>
+                    </ul>
+                    <p><strong>Das Ergebnis:</strong> Nachhaltige Sauberkeit mit weniger Aufwand – gesund für Mensch, Tier und Umwelt.</p>
+                    <a href="wasserstaubsauger.html" class="btn-secondary" style="text-decoration: none; display: inline-block;">Mehr Informationen</a>
+                </div>
+                <div class="service-image">
+                    <img src="assets/images/Wasserstaubsauger_Wohnzimmer.png" alt="Wasserstaubsauger" class="service-product-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dampfreiniger Section -->
+    <section class="services-section card-stack">
+        <div class="container">
+            <div class="service-item reverse">
+                <div class="service-content">
+                    <h3>Dampfreiniger: Chemiefrei hygienisch – schonend für Natur und Oberflächen</h3>
+                    <p>Mit heißem Trockendampf lassen sich Oberflächen hygienisch sauber halten – ganz ohne Chemikalien. Bakterien, Milben und Schimmel werden zuverlässig abgetötet.</p>
+                    <p><strong>Besonders effektiv für:</strong></p>
+                    <ul>
+                        <li>Küchen & Bäder – hygienische Sauberkeit ohne aggressive Reiniger.</li>
+                        <li>Textilien & Polstermöbel – schonend sauber ohne Chemikalien.</li>
+                        <li>Langfristige Pflege – Oberflächen bleiben länger intakt, da sie ohne scharfe Mittel gereinigt werden.</li>
+                    </ul>
+                    <p><strong>Das Ergebnis:</strong> Gründliche Sauberkeit, die nachhaltig wirkt – und gleichzeitig Ressourcen schont.</p>
+                    <a href="dampfreiniger.html" class="btn-secondary" style="text-decoration: none; display: inline-block;">Mehr Informationen</a>
+                </div>
+                <div class="service-image">
+                    <img src="assets/images/Dampfreiniger_Wohnzimmer.png" alt="Dampfreiniger" class="service-product-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Steps Section - Moderne 3-Box Layout -->
+    <section class="steps-section" style="padding: 6rem 0; background: #f8f9fa;">
+        <div class="container">
+            <h3 style="text-align: center; font-size: 2.5rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.2;">
+                In 3 Schritten zu <span style="color: var(--primary-turquoise);">nachhaltiger Sauberkeit</span>
+            </h3>
+            <p style="text-align: center; font-size: 1.2rem; color: #6c757d; margin-bottom: 4rem; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+                Unser bewährter Weg zu einer nachhaltigen Reinigung – einfach und effektiv
+            </p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; max-width: 1200px; margin: 0 auto;">
+                
+                <!-- Step 1 -->
+                <div style="background: white; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.1)'">
+                    <div style="position: relative; height: 200px; overflow: hidden;">
+                        <img src="assets/images/familyHappy.png" alt="Kostenlose Beratung" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; top: 20px; left: 20px; background: var(--primary-turquoise); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">1</div>
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h4 style="font-size: 1.4rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.3;">Kostenlose Beratung</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 1rem;">Vereinbaren Sie eine unverbindliche und für Sie kostenlose Beratung mit unseren Reinigungsexperten.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div style="background: white; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.1)'">
+                    <div style="position: relative; height: 200px; overflow: hidden;">
+                        <img src="assets/images/Wasserstaubsauger_Wohnzimmer.png" alt="Lösungen testen" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; top: 20px; left: 20px; background: var(--primary-blue); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">2</div>
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h4 style="font-size: 1.4rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.3;">Lösungen testen</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 1rem;">Geräte unverbindlich bei Ihnen zu Hause ausprobieren.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 3 -->
+                <div style="background: white; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.1)'">
+                    <div style="position: relative; height: 200px; overflow: hidden;">
+                        <img src="assets/images/RoomClean_home.png" alt="Nachhaltig sauber" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; top: 20px; left: 20px; background: var(--primary-turquoise); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">3</div>
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h4 style="font-size: 1.4rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.3;">Nachhaltig sauber</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 1rem;">Weniger Aufwand, längere Sauberkeit – gesund für alle.</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- CTA Button -->
+            <div style="text-align: center; margin-top: 4rem;">
+                <button class="btn-primary" onclick="document.getElementById('kontakt').scrollIntoView({behavior: 'smooth'})" style="padding: 1.2rem 3rem; font-size: 1.2rem; border-radius: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+                    Jetzt beraten lassen
+                </button>
+            </div>
+        </div>
+        
+        <!-- Responsive Design -->
+        <style>
+            @media (max-width: 768px) {
+                .steps-section div[style*="grid-template-columns"] {
+                    grid-template-columns: 1fr !important;
+                    gap: 2rem !important;
+                }
+            }
+        </style>
+    </section>
+
+    <!-- Health Benefits Section -->
+    <section class="health-section">
+        <video class="health-video-background" autoplay muted loop playsinline>
+            <source src="assets/videos/Sauger_video_home.mp4" type="video/mp4">
+            <source src="assets/videos/Sauger_video_home.webm" type="video/webm">
+        </video>
+        <div class="health-video-overlay"></div>
+        <div class="container">
+            <div class="health-content-overlay">
+                <div class="health-text-overlay">
+                    <h3>DR. SAUBER</h3>
+                    <h4>Gesundheit beginnt Zuhause.</h4>
+                    <p>Bei Dr. Sauber sind wir davon überzeugt, dass die Dinge, die uns umgeben, einen enormen Einfluss auf unsere Gesundheit, unser Wohlbefinden und unsere Lebensqualität haben.</p>
+                    <p>Deshalb haben wir uns aufgemacht, um herstellerunabhängig die beste Auswahl an Reinigungsgeräten für Sie zusammenzustellen.</p>
+                    <p>Dabei achten wir darauf, dass alle unsere Reinigungslösungen auf Chemie verzichten, schnell und leicht von der Hand gehen und in der Anwendung oft sogar Spass machen. Da unsere Geräte ungewöhnlich langlebig sind, sind diese bei unseren Anwendern häufig über Jahrzehnte im Gebrauch.</p>
+                    <p>Ob für Ihre Familie oder Ihr Unternehmen – gemeinsam schaffen wir ein Umfeld, das Gesundheit möglich macht.</p>
+                    <button class="btn-primary">Mehr erfahren</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" style="padding: 4rem 0; background: #f8f9fa;">
+        <div class="container">
+            <h3 style="text-align: center; margin-bottom: 3rem;">HÄUFIGE FRAGEN – Ihre Fragen zu nachhaltigen Reinigungslösungen</h3>
+            <div class="faq-grid" style="display: grid; gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Warum gelten die Geräte als nachhaltiger als herkömmliche Lösungen?</h4>
+                    <p>Staub und Allergene werden direkt im Wasser gebunden; aggressive Reiniger entfallen komplett; Geräte sind auf viele Jahre ausgelegt – das spart Ressourcen und vermeidet Müll.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Wie unterscheiden sich die Systeme von herkömmlichen Staubsaugern?</h4>
+                    <p>Normale Staubsauger wirbeln Feinstaub wieder auf; Wasserstaubsauger binden Partikel im Wasser, wodurch die Luft sauberer bleibt und weniger nachgeputzt werden muss.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Brauche ich überhaupt noch chemische Reinigungsmittel?</h4>
+                    <p>Für die meisten Anwendungen reicht reines Wasser. Selbst Bakterien, Viren und Schimmelsporen werden durch Dampf zuverlässig beseitigt – ganz ohne Chemie.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Wie viel Zeit spare ich?</h4>
+                    <p>Weil Staub und Schmutz gründlicher entfernt werden, bleiben Oberflächen länger sauber. Viele Nutzer berichten von bis zu 42 % weniger Reinigungsaufwand.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Sind die Geräte ressourcenschonend im Alltag?</h4>
+                    <p>Es werden weder Filterbeutel noch große Mengen an Putzmitteln benötigt – das spart laufende Kosten, Verpackungsmüll und schont die Umwelt.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Können die Geräte Oberflächen beschädigen?</h4>
+                    <p>Im Gegenteil – da ohne aggressive Reiniger gereinigt wird, bleiben Böden, Möbel und Textilien länger intakt.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Wie lange halten die Geräte?</h4>
+                    <p>Viele Kunden nutzen ihre Systeme problemlos über Jahrzehnte.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Sind die Geräte energieintensiv?</h4>
+                    <p>Sie sind so ausgelegt, dass sie im Verhältnis zum Ergebnis sehr effizient arbeiten; der reduzierte Putzfrequenz senkt den Energieverbrauch insgesamt.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Was bringt der Wasserstaubsauger gegenüber klassischen Filtern?</h4>
+                    <p>Filter müssen regelmäßig gewechselt und entsorgt werden. Das Wasser bindet Staub und Allergene sofort – ohne Zusatzmaterialien und Abfall.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Kann ich die Geräte ausprobieren, bevor ich mich entscheide?</h4>
+                    <p>Ja – in einer unverbindlichen Test-Demo ist ein Unterschied sofort zu erleben, sowohl in der Sauberkeit als auch in nachhaltigerem Aufwand.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="footer-cta">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h3>Bereit für nachhaltige Sauberkeit?</h3>
+                    <p>Kontaktieren Sie uns für eine kostenlose Beratung oder besuchen Sie unseren Workshop. Wir freuen uns darauf, Ihnen zu helfen.</p>
+                </div>
+                <div class="cta-buttons">
+                    <button class="btn-primary">Kostenlose Beratung</button>
+                    <button class="btn-secondary">Workshop besuchen</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/images/Logo.png" alt="Dr. Sauber - Sauberkeit, Nachhaltigkeit, Gesundheit" class="footer-logo">
+                    <p>Staub- & chemiefreie Reinigungslösungen</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h5>Produkte</h5>
+                        <a href="wasserstaubsauger.html">Wasserstaubsauger</a>
+                        <a href="dampfreiniger.html">Dampfreiniger</a>
+                        <a href="workshop.html">Workshop</a>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Gewerbe</h5>
+                        <a href="airbnb.html">AirBnB & Ferienwohnungen</a>
+                        <a href="hotel.html">Hotels & Gastronomie</a>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Rechtliches</h5>
+                        <a href="kontakt.html">Kontakt</a>
+                        <a href="impressum.html">Impressum</a>
+                        <a href="datenschutz.html">Datenschutz</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Sauber. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Header scroll effect und Hero Animation Optimierung
+        let heroScrollTimeout;
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            const heroSection = document.querySelector('.hero');
+            
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            
+            // Pausiere Hero Animationen beim Scrollen
+            if (heroSection) {
+                heroSection.classList.add('scrolling');
+                
+                clearTimeout(heroScrollTimeout);
+                heroScrollTimeout = setTimeout(function() {
+                    heroSection.classList.remove('scrolling');
+                }, 150);
+            }
+        });
+
+        // Seite beim Laden korrekt positionieren
+        window.addEventListener('load', function() {
+            // Verhindert automatisches Scrollen zu Elementen
+            window.scrollTo(0, 0);
+            
+            // Kleine Verzögerung für bessere Kompatibilität
+            setTimeout(function() {
+                window.scrollTo(0, 0);
+            }, 100);
+        });
+
+        // Auch bei DOMContentLoaded sicherstellen
+        document.addEventListener('DOMContentLoaded', function() {
+            window.scrollTo(0, 0);
+        });
+    </script>
+</body>
+</html>
