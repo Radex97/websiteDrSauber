@@ -5427,6 +5427,14 @@ h4 {
     background-repeat: no-repeat !important;
 }
 
+/* Tier-Haushalte-Seite spezifische Styles */
+.tier-haushalte-page .hero-background {
+    background-image: url('assets/images/New/Paar_mit_Hund_420514730 mm.jpeg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
 /* Premium Cycle Infographic */
 .premium-cycle-problems {
     background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
