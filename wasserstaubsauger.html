@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasserstaubsauger - Dr. Sauber</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="performance-optimizer.js" defer></script>
+</head>
+<body class="wasserstaubsauger-page">
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none;">
+                    <img src="assets/images/New/DRS-Logo 1 Kreis.png" alt="Dr. Sauber - Sauberkeit, Nachhaltigkeit, Gesundheit" class="logo-image">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Startseite</a>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#products" class="mega-toggle">Produkte</a>
+                    <div class="mega-menu" role="menu" aria-label="Produkte Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/New/Team_AdobeStock_221182721 mm.jpeg" alt="Professionelles Team - Kostenlose Beratung"></div>
+                                <div>
+                                    <div class="mega-cta-title">Gesünder reinigen – jetzt beraten lassen</div>
+                                    <div class="mega-cta-text">Kostenlos & unverbindlich: Wir finden die beste Lösung für Ihr Zuhause.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Kostenlose Beratung <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="wasserstaubsauger.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Wasserstaubsauger_Wohnzimmer.png" alt="Wasserstaubsauger"></div>
+                                <div class="mega-product-content">
+                                    <h4>Wasserstaubsauger</h4>
+                                    <p>Staub im Wasser binden – saubere Raumluft.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="dampfreiniger.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Dampfreiniger_Wohnzimmer.png" alt="Dampfreiniger"></div>
+                                <div class="mega-product-content">
+                                    <h4>Dampfreiniger</h4>
+                                    <p>Hygienisch sauber – ganz ohne Chemie.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="workshop.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Workshop_home.avif" alt="Workshop"></div>
+                                <div class="mega-product-content">
+                                    <h4>Workshop</h4>
+                                    <p>Kostenlos testen und smart reinigen lernen.</p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Jetzt beraten lassen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#home" class="mega-toggle">Zu Hause</a>
+                    <div class="mega-menu" role="menu" aria-label="Zu Hause Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/New/Team_AdobeStock_221182721 mm.jpeg" alt="Professionelles Team - Lösungen für Tier-Haushalte"></div>
+                                <div>
+                                    <div class="mega-cta-title">Lösungen für Tier-Haushalte</div>
+                                    <div class="mega-cta-text">Weniger Tierhaare, weniger Gerüche – kostenlos beraten lassen.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Kostenlose Beratung <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="allergiker.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Mann_niesen_437423088 mm.jpeg" alt="Mann mit Allergiesymptomen - Allergiker"></div>
+                                <div class="mega-product-content">
+                                    <h4>Allergiker</h4>
+                                    <p>Besser atmen – weniger Allergiesymptome.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="tier-haushalte.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Paar_mit_Hund_420514730 mm.jpeg" alt="Tier-Haushalte"></div>
+                                <div class="mega-product-content">
+                                    <h4>Tier-Haushalte</h4>
+                                    <p>Weniger Tierhaare, weniger Gerüche, mehr Wohlbefinden.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="familien.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Familie_Küche_327423820 mm.jpg" alt="Glückliche Familie beim Kochen - Familien"></div>
+                                <div class="mega-product-content">
+                                    <h4>Familien</h4>
+                                    <p>Sauber, gesund & stressfrei – auch im turbulenten Familienalltag.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Jetzt beraten lassen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#commercial" class="mega-toggle">Gewerbe</a>
+                    <div class="mega-menu" role="menu" aria-label="Gewerbe Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/New/Team_AdobeStock_221182721 mm.jpeg" alt="Professionelles Team - Gewerbe-Lösungen"></div>
+                                <div>
+                                    <div class="mega-cta-title">Gewerbe-Lösungen – schneller sauber</div>
+                                    <div class="mega-cta-text">Zeitkritische Reinigung? Wir optimieren Equipment & Ablauf.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Beratung anfragen <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="airbnb.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Airbnb.png" alt="AirBnB & Ferienwohnungen"></div>
+                                <div class="mega-product-content">
+                                    <h4>AirBnB & Ferienwohnungen</h4>
+                                    <p>Schneller sauber, bessere Bewertungen.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="hotel.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Frau_Küche_332939142 mm.jpeg" alt="Frau in der Küche - Hotels & Gastronomie"></div>
+                                <div class="mega-product-content">
+                                    <h4>Hotels & Gastronomie</h4>
+                                    <p>Perfekte Frische für hohe Auslastung.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Beratung für Gewerbe anfragen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#about" class="mega-toggle">Über uns</a>
+                    <div class="mega-menu" role="menu" aria-label="Über uns Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/New/Team_AdobeStock_221182721 mm.jpeg" alt="Professionelles Team - Werden Sie Teil von Dr. Sauber"></div>
+                                <div>
+                                    <div class="mega-cta-title">Werden Sie Teil von Dr. Sauber</div>
+                                    <div class="mega-cta-text">Entdecken Sie Ihre Möglichkeiten als Markenbotschafter oder Berater.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="karriere.html">Karriere starten <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="gesundheitsbewusst.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Frau_Mädchen_334080516 mm.jpeg" alt="Frau und Mädchen springen fröhlich - Gesundheitsbewusst"></div>
+                                <div class="mega-product-content">
+                                    <h4>Gesundheitsbewusst</h4>
+                                    <p>Ein Zuhause, das Ihre Gesundheit stärkt.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="delphin-schweiz.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Dampfreiniger_Wohnzimmer.png" alt="Delphin Schweiz"></div>
+                                <div class="mega-product-content">
+                                    <h4>Delphin Schweiz</h4>
+                                    <p>Unser Partner für professionelle Reinigungslösungen.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="nachhaltigkeit.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Frau_mit_Baby_188278666 mm.jpeg" alt="Frau mit Baby - Nachhaltigkeit"></div>
+                                <div class="mega-product-content">
+                                    <h4>Nachhaltigkeit</h4>
+                                    <p>Sauberkeit, die bleibt – gesund für Mensch, Tier und Natur.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="kontakt.html">Kontakt aufnehmen →</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="karriere.html">Karriere</a>
+                <a href="kontakt.html">Kontakt</a>
+                <button class="btn-cta">Jetzt beraten lassen</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section - Wasserstaubsauger -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        
+        <!-- Animated Background Elements -->
+        <div class="hero-animated-elements">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="particle-field"></div>
+        </div>
+        
+        <!-- Floating KPIs -->
+        <div class="hero-kpis">
+            <div class="kpi-item">
+                <div class="kpi-number">-97%</div>
+                <div class="kpi-label">Staubbelastung</div>
+            </div>
+            <div class="kpi-item">
+                <div class="kpi-number">100%</div>
+                <div class="kpi-label">Wasserfiltration</div>
+            </div>
+            <div class="kpi-item">
+                <div class="kpi-number">0%</div>
+                <div class="kpi-label">Chemie</div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text-container">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span class="badge-icon">✨</span>
+                        <span class="badge-text">Wasserstaubsauger-Technologie</span>
+                    </div>
+                    <p class="subtitle">WASSERSTAUBSAUGER</p>
+                    <h2 class="hero-title">
+                        <span class="title-line">Für ein staubfreies Zuhause</span>
+                        <span class="title-highlight">und gesunde</span>
+                        <span class="title-line">Atemluft</span>
+                    </h2>
+                    <p class="hero-description">
+                        Sie leiden unter Staubmilben oder unter der Belastung durch den 
+                        Staubsauger? Dann brauchen Sie keinen neuen Filter, sondern ein System, das 
+                        Feinstaub, Allergene und Schmutzpartikel zuverlässig im Wasser bindet, bevor 
+                        Sie es einatmen.
+                    </p>
+                    <p class="hero-tagline">Sauberer wohnen. Besser durchatmen. Gesünder leben.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary">
+                            <span class="btn-text">Jetzt beraten lassen</span>
+                        </button>
+                        <button class="btn-secondary">
+                            <span class="btn-text">Lösungen entdecken</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Hero Scroll Indicator -->
+        <div class="hero-scroll-indicator">
+            <div class="scroll-text">Mehr entdecken</div>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+
+
+    <!-- Services Grid Section (danach) -->
+    <section class="services-grid-section">
+        <div class="container">
+            <h3 class="services-grid-title">Ihre Vorteile mit Wasserfiltration</h3>
+            <p class="services-grid-subtitle">Staub bleibt im Wasser – nicht in der Luft</p>
+            <div class="services-grid-content">
+                <div class="services-grid-image"><img src="assets/images/RoomClean_home.png" alt="Vorteile" class="services-main-image"></div>
+                <div class="services-grid-middle">
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7V10C2 16 6 20.5 12 22C18 20.5 22 16 22 10V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Wasserwirbel-Filter</h4><p>Bindet Feinstaub und Gerüche nachhaltig.</p>
+                    </div>
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 12H18L15 21L9 3L6 12H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Raumluft filtern</h4><p>Beim Saugen mitreinigen und befeuchten.</p>
+                    </div>
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Tiefenreinigung</h4><p>Mit Elektrobürste für Teppiche & Matratzen.</p>
+                    </div>
+                </div>
+                <div class="services-grid-right">
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 1V23M17 5H9.5A3.5 3.5 0 0 0 9.5 12H12M6 17H14.5A3.5 3.5 0 0 0 14.5 10H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Ohne Folgekosten</h4><p>Keine Beutel, keine Filterwechsel nötig.</p>
+                    </div>
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Allergikerfreundlich</h4><p>Spürbar weniger Reizstoffe.</p>
+                    </div>
+                    <div class="service-card glass-static">
+                        <div class="service-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 10V3L4 14H11L11 21L20 10H13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Frischer Geruch</h4><p>Wasser neutralisiert unangenehme Gerüche.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Holistic Approach Section (nach Services) -->
+    <section class="holistic-section">
+        <div class="container">
+            <div class="holistic-content">
+                <div class="holistic-text">
+                    <h3>Wasser bindet Staub – die Luft bleibt sauber</h3>
+                    <p>Mit Wasserfiltration werden Partikel, Allergene und Gerüche zuverlässig gebunden – die austretende Luft ist spürbar frischer.</p>
+                    <div class="holistic-features">
+                        <div class="feature-item"><div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7V10C2 16 6 20.5 12 22C18 20.5 22 16 22 10V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                        </div><div class="feature-content"><h4>4–6x seltener saugen</h4><p>Staubkreislauf nachhaltig durchbrechen.</p></div></div>
+                        <div class="feature-item"><div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 12H18L15 21L9 3L6 12H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div><div class="feature-content"><h4>Frischere Raumluft</h4><p>Luftreinigung beim Saugen inklusive.</p></div></div>
+                        <div class="feature-item"><div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div><div class="feature-content"><h4>Ohne Beutel</h4><p>Keine Folgekosten, keine Gerüche.</p></div></div>
+                    </div>
+                    <button class="btn-secondary holistic-btn">Mehr erfahren</button>
+                </div>
+                <div class="holistic-images">
+                    <div class="image-stack">
+                        <div class="main-image"><img src="assets/images/Wasserstaubsauger_Wohnzimmer.png" alt="Wasserstaubsauger" class="holistic-main-img"></div>
+                        <div class="secondary-image"><img src="assets/images/Hausstaub_Wohnzimmer.png" alt="Hausstaub" class="holistic-secondary-img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Method Section (später) -->
+    <section class="method-section">
+        <div class="container">
+            <div class="method-content glass-host">
+                <div class="glass-base"></div>
+                <div class="method-text glass-surface">
+                    <h3>So funktioniert Wasserfiltration – kurz erklärt</h3>
+                    <div class="video-placeholder"><div class="play-button">▶</div></div>
+                </div>
+                <div class="method-info">
+                    <h4>Sauberer wohnen. Besser atmen.</h4>
+                    <p>Die Luft wird durch ein Wasserbad geführt, Partikel werden gebunden – die austretende Luft ist spürbar frischer.</p>
+                    <div class="method-points">
+                        <div class="point"><strong>Konstant frische Luft.</strong> Keine Staubabgabe in den Raum.</div>
+                        <div class="point"><strong>Weniger Aufwand.</strong> Staub kreist nicht zurück.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section (ans Ende) -->
+    <section class="stats-section">
+        <div class="container">
+            <h3>Weniger Staub, weniger Aufwand, bessere Luft.</h3>
+            <div class="stats-grid">
+                <div class="stat-item glass-static"><div class="stat-number">4–6x</div><div class="stat-label">seltener saugen</div></div>
+                <div class="stat-item glass-static"><div class="stat-number">99,97%</div><div class="stat-label">Partikelbindung</div></div>
+                <div class="stat-item glass-static"><div class="stat-number">0 €</div><div class="stat-label">Folgekosten</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before After Comparison Section (weiter vor) -->
+    <section class="before-after-section" style="padding: 8rem 0 8rem 0;">
+        <div class="container">
+            <div class="comparison-wrapper grid-h1 horizontal" style="position: relative; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.15); max-width: 1200px; margin: 0 auto;">
+                <div class="comparison-image" style="height: 500px; width: 100%;">
+                    <img src="assets/images/dirty.png" alt="Vorher" class="before-image" style="height: 100%; width: 100%; object-fit: cover;">
+                    <img src="assets/images/RoomClean_home.png" alt="Nachher" class="after-image" style="height: 100%; width: 100%; object-fit: cover;">
+                </div>
+                        
+                        <!-- Vorher/Nachher Labels direkt im Bild -->
+                        <div style="position: absolute; top: 30px; left: 30px; background: rgba(3, 152, 158, 0.9); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; font-weight: 700; font-size: 1.1rem; backdrop-filter: blur(10px); box-shadow: 0 8px 25px rgba(0,0,0,0.2);">
+                            Vorher
+                        </div>
+                        <div style="position: absolute; top: 30px; right: 30px; background: rgba(3, 152, 158, 0.9); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; font-weight: 700; font-size: 1.1rem; backdrop-filter: blur(10px); box-shadow: 0 8px 25px rgba(0,0,0,0.2);">
+                            Nachher
+                        </div>
+                        
+                        <div class="comparison-slider"><div class="slider-handle"><div class="handle-icon">↔</div></div><div class="slider-line"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Steps Section - Moderne 3-Box Layout -->
+    <section class="steps-section" style="padding: 6rem 0; background: #f8f9fa;">
+        <div class="container">
+            <h3 style="text-align: center; font-size: 2.5rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.2;">
+                In 3 Schritten zum <span style="color: var(--primary-turquoise);">staubfreien Zuhause</span>
+            </h3>
+            <p style="text-align: center; font-size: 1.2rem; color: #6c757d; margin-bottom: 4rem; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+                Unser bewährter Weg zu sauberer Luft und weniger Hausstaub – einfach und effektiv
+            </p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; max-width: 1200px; margin: 0 auto;">
+                
+                <!-- Step 1 -->
+                <div style="background: white; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.1)'">
+                    <div style="position: relative; height: 200px; overflow: hidden;">
+                        <img src="assets/images/New/Team_AdobeStock_221182721 mm.jpeg" alt="Professionelles Team - Kostenlose Beratung" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; top: 20px; left: 20px; background: var(--primary-turquoise); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">1</div>
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h4 style="font-size: 1.4rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.3;">Kostenlose Beratung</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 1rem;">Individuelle Empfehlung für Ihr Zuhause und Ihre Bedürfnisse.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div style="background: white; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.1)'">
+                    <div style="position: relative; height: 200px; overflow: hidden;">
+                        <img src="assets/images/Wasserstaubsauger_Wohnzimmer.png" alt="30 Tage testen" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; top: 20px; left: 20px; background: var(--primary-blue); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">2</div>
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h4 style="font-size: 1.4rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.3;">30 Tage testen</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 1rem;">Unverbindlich zu Hause ausprobieren und den Unterschied selbst erleben.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 3 -->
+                <div style="background: white; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.1)'">
+                    <div style="position: relative; height: 200px; overflow: hidden;">
+                        <img src="assets/images/New/Frau_Mädchen_334080516 mm.jpeg" alt="Frau und Mädchen springen fröhlich auf dem Sofa - dauerhaft sauberer" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; top: 20px; left: 20px; background: var(--primary-turquoise); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">3</div>
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h4 style="font-size: 1.4rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.3;">Dauerhaft sauberer</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 1rem;">Weniger Staub, weniger Aufwand – spürbar bessere Raumluft.</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- CTA Button -->
+            <div style="text-align: center; margin-top: 4rem;">
+                <button class="btn-primary" style="padding: 1.2rem 3rem; font-size: 1.2rem; border-radius: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+                    Jetzt starten
+                </button>
+            </div>
+        </div>
+        
+        <!-- Responsive Design -->
+        <style>
+            @media (max-width: 768px) {
+                .steps-section div[style*="grid-template-columns"] {
+                    grid-template-columns: 1fr !important;
+                    gap: 1rem !important;
+                }
+                .steps-section h3 {
+                    font-size: 2rem !important;
+                }
+                .steps-section p {
+                    font-size: 1rem !important;
+                }
+            }
+        </style>
+    </section>
+
+    <!-- Health Benefits Section -->
+    <section class="health-section">
+        <video class="health-video-background" autoplay muted loop playsinline>
+            <source src="assets/videos/Sauger_video_home.mp4" type="video/mp4">
+            <source src="assets/videos/Sauger_video_home.webm" type="video/webm">
+        </video>
+        <div class="health-video-overlay"></div>
+        <div class="container">
+            <div class="health-content-overlay">
+                <div class="health-text-overlay">
+                    <h3>Gesündere Atemluft beim Saugen.</h3>
+                    <p>Wasserfilter neutralisieren Staub und Gerüche – ideal für Allergiker.</p>
+                    <button class="btn-primary">Mehr erfahren</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section (Card-Stack Effekt) -->
+    <section class="services-section card-stack">
+        <div class="container">
+            <div class="service-item">
+                <div class="service-content">
+                    <h3>Kostenlosen Workshop nutzen</h3>
+                    <p>Live testen, wie Wasser den Staub bindet – ohne Chemie.</p>
+                    <button class="btn-primary">Workshop buchen</button>
+                </div>
+                <div class="service-image"><img src="assets/images/Workshop_home.avif" alt="Workshop" class="service-product-image"></div>
+            </div>
+            <div class="service-item reverse">
+                <div class="service-content">
+                    <h3>Dampfreiniger ergänzen perfekt</h3>
+                    <p>Für Küche, Bad, Fenster und Textilien – hygienisch ohne Mittel.</p>
+                    <a href="dampfreiniger.html" class="btn-secondary" style="text-decoration: none; display: inline-block;">Mehr Informationen</a>
+                </div>
+                <div class="service-image"><img src="assets/images/Thermostar_home.webp" alt="Dampf" class="service-product-image"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <div class="reviews-header"><h3>Erfahrungen mit Wasserstaubsaugern</h3><button class="btn-secondary reviews-more-btn">Mehr Bewertungen</button></div>
+            <div class="reviews-grid">
+                <div class="review-card"><div class="review-image"><img src="assets/images/familyHappy.png" alt="Kundin" class="reviewer-img"></div><div class="review-content"><div class="review-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div><blockquote class="review-text">„Die Luft ist spürbar frischer – und wir müssen viel seltener saugen.”</blockquote><div class="reviewer-info"><strong>Maria S.</strong> München</div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="footer-cta">
+        <div class="container"><div class="cta-content"><div class="cta-text"><h3>Bereit für saubere Luft ohne Chemie?</h3><p>Jetzt Beratung anfordern oder 30 Tage testen.</p></div><div class="cta-buttons"><button class="btn-primary">Kostenlose Beratung</button><button class="btn-secondary">Jetzt testen</button></div></div></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/images/New/DRS-Logo 1 Kreis.png" alt="Dr. Sauber - Sauberkeit, Nachhaltigkeit, Gesundheit" class="footer-logo">
+                    <p>Staub- & chemiefreie Reinigungslösungen</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h5>Produkte</h5>
+                        <a href="wasserstaubsauger.html">Wasserstaubsauger</a>
+                        <a href="dampfreiniger.html">Dampfreiniger</a>
+                        <a href="workshop.html">Workshop</a>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Gewerbe</h5>
+                        <a href="airbnb.html">AirBnB & Ferienwohnungen</a>
+                        <a href="hotel.html">Hotels & Gastronomie</a>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Rechtliches</h5>
+                        <a href="kontakt.html">Kontakt</a>
+                        <a href="impressum.html">Impressum</a>
+                        <a href="datenschutz.html">Datenschutz</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Sauber. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Vorher-Nachher Slider wie Startseite
+        document.addEventListener('DOMContentLoaded', function() {
+            const comparisonWrapper = document.querySelector('.comparison-wrapper');
+            if (!comparisonWrapper) return;
+            const sliderHandle = document.querySelector('.slider-handle');
+            const beforeImage = document.querySelector('.before-image');
+            const afterImage = document.querySelector('.after-image');
+            const sliderLine = document.querySelector('.slider-line');
+            let isDragging = false;
+            function updateSlider(p){ const clamped = Math.max(0, Math.min(100, p)); const sliderContainer = document.querySelector('.comparison-slider'); sliderContainer.style.left = clamped + '%'; beforeImage.style.clipPath = `polygon(0 0, ${clamped}% 0, ${clamped}% 100%, 0 100%)`; afterImage.style.clipPath = `polygon(${clamped}% 0, 100% 0, 100% 100%, ${clamped}% 100%)`; }
+            comparisonWrapper.addEventListener('click', function(e){ if (e.target === sliderHandle || e.target === sliderLine) return; const rect = comparisonWrapper.getBoundingClientRect(); updateSlider(((e.clientX-rect.left)/rect.width)*100); });
+            function start(e){ isDragging = true; e.preventDefault(); }
+            function move(e){ if(!isDragging) return; const clientX = e.type==='mousemove'?e.clientX:e.touches[0].clientX; const rect = comparisonWrapper.getBoundingClientRect(); updateSlider(((clientX-rect.left)/rect.width)*100); e.preventDefault(); }
+            function end(){ isDragging = false; }
+            sliderHandle.addEventListener('mousedown', start); document.addEventListener('mousemove', move); document.addEventListener('mouseup', end);
+            sliderHandle.addEventListener('touchstart', start); document.addEventListener('touchmove', move); document.addEventListener('touchend', end);
+            updateSlider(50);
+        });
+        // Header Scroll Effekt wie Startseite
+        window.addEventListener('scroll', function(){ const header = document.querySelector('.header'); const hero = document.querySelector('.hero'); if (window.scrollY>50){header.classList.add('scrolled');} else {header.classList.remove('scrolled');} if(hero){ hero.classList.add('scrolling'); clearTimeout(window.__hst); window.__hst=setTimeout(function(){hero.classList.remove('scrolling');},150);} });
+
+        // Seite beim Laden korrekt positionieren
+        window.addEventListener('load', function() {
+            // Verhindert automatisches Scrollen zu Elementen
+            window.scrollTo(0, 0);
+            
+            // Kleine Verzögerung für bessere Kompatibilität
+            setTimeout(function() {
+                window.scrollTo(0, 0);
+            }, 100);
+        });
+
+        // Auch bei DOMContentLoaded sicherstellen
+        document.addEventListener('DOMContentLoaded', function() {
+            window.scrollTo(0, 0);
+        });
+    </script>
+</body>
+</html>

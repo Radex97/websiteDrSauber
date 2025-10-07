@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home 2 – Dr. Sauber</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Unsere Basis-Styles & Fonts -->
+    <link rel="stylesheet" href="styles.css">
+    
+
+    <!-- Choicy Template CSS (nur für diese Seite) -->
+    <link rel="stylesheet" href="template/choicy-html/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="template/choicy-html/assets/css/nice-select.css">
+    <link rel="stylesheet" href="template/choicy-html/assets/css/all.min.css">
+    <link rel="stylesheet" href="template/choicy-html/assets/css/flaticon_choicy.css">
+    <link rel="stylesheet" href="template/choicy-html/assets/css/animate.css">
+    <link rel="stylesheet" href="template/choicy-html/assets/css/odometer.min.css">
+    <link rel="stylesheet" href="template/choicy-html/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="template/choicy-html/assets/css/swiper.min.css">
+    <link rel="stylesheet" href="template/choicy-html/assets/css/main.css">
+
+    <!-- Corporate-Farben auf Template-Variablen mappen (nur diese Seite) -->
+    <style>
+        :root {
+            /* Map Choicy Farben auf unsere Corporate CI */
+            --chy-pr-1: var(--primary-turquoise);
+            --chy-pr-2: var(--primary-blue);
+            --chy-pr-3: var(--primary-turquoise);
+            --chy-pr-4: var(--primary-blue);
+            --chy-sd-1: var(--primary-blue);
+            --chy-h1-color: var(--primary-blue);
+            --chy-h2-color: var(--primary-blue);
+        }
+        /* Lokaler Scope für Template-Hintergrund-Klassen */
+        body.home-2-page { background: #F8F8F8; }
+        /* Schriftart auf unsere Interstate umbiegen (überschreibt Template) */
+        .home-2-page, .home-2-page h1, .home-2-page h2, .home-2-page h3, .home-2-page h4, .home-2-page h5, .home-2-page h6,
+        .home-2-page .chy-heading-1, .home-2-page .chy-title-2, .home-2-page .chy-subtitle-2, .home-2-page .chy-para-1, .home-2-page .chy-para-2 {
+            font-family: var(--font-body) !important;
+        }
+    </style>
+
+    <script src="performance-optimizer.js" defer></script>
+</head>
+<body class="home-2-page">
+    <!-- Header / Navigation (unsere) -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none;">
+                    <img src="assets/images/New/DRS-Logo 1 Kreis.png" alt="Dr. Sauber - Sauberkeit, Nachhaltigkeit, Gesundheit" class="logo-image">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Startseite</a>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#products" class="mega-toggle">Produkte</a>
+                    <div class="mega-menu" role="menu" aria-label="Produkte Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/Wasserstaubsauger_Wohnzimmer.png" alt="Wasserstaubsauger"></div>
+                                <div>
+                                    <div class="mega-cta-title">Gesünder reinigen – jetzt beraten lassen</div>
+                                    <div class="mega-cta-text">Kostenlos & unverbindlich: Wir finden die beste Lösung für Ihr Zuhause.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Kostenlose Beratung <span>→</span></a>
+                            </div>
+                            <a class="mega-item" href="wasserstaubsauger.html" role="menuitem">
+                                <div class="mega-thumb"><span class="mega-icon">💧</span></div>
+                                <div class="mega-text">
+                                    <h4>Wasserstaubsauger</h4>
+                                    <p>Staub im Wasser binden – saubere Raumluft.</p>
+                                </div>
+                                <div class="mega-arrow">›</div>
+                            </a>
+                            <a class="mega-item" href="dampfreiniger.html" role="menuitem">
+                                <div class="mega-thumb"><span class="mega-icon">♨️</span></div>
+                                <div class="mega-text">
+                                    <h4>Dampfreiniger</h4>
+                                    <p>Hygienisch sauber – ganz ohne Chemie.</p>
+                                </div>
+                                <div class="mega-arrow">›</div>
+                            </a>
+                            <a class="mega-item" href="workshop.html" role="menuitem">
+                                <div class="mega-thumb"><span class="mega-icon">🎓</span></div>
+                                <div class="mega-text">
+                                    <h4>Workshop</h4>
+                                    <p>Kostenlos testen und smart reinigen lernen.</p>
+                                </div>
+                                <div class="mega-arrow">›</div>
+                            </a>
+                            <a class="mega-item" href="#testing" role="menuitem">
+                                <div class="mega-thumb"><span class="mega-icon">🧪</span></div>
+                                <div class="mega-text">
+                                    <h4>Produkt-Tester</h4>
+                                    <p>30 Tage zuhause ausprobieren – unverbindlich.</p>
+                                </div>
+                                <div class="mega-arrow">›</div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Jetzt beraten lassen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#home" class="mega-toggle">Zu Hause</a>
+                    <div class="mega-menu" role="menu" aria-label="Zu Hause Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/New/Paar_mit_Hund_420514730 mm.jpeg" alt="Tier-Haushalte Lösungen"></div>
+                                <div>
+                                    <div class="mega-cta-title">Lösungen für Tier-Haushalte</div>
+                                    <div class="mega-cta-text">Weniger Tierhaare, weniger Gerüche – kostenlos beraten lassen.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Kostenlose Beratung <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="allergiker.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/familyHappy.png" alt="Allergiker"></div>
+                                <div class="mega-product-content">
+                                    <h4>Allergiker</h4>
+                                    <p>Besser atmen – weniger Allergiesymptome.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="tier-haushalte.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Paar_mit_Hund_420514730 mm.jpeg" alt="Tier-Haushalte"></div>
+                                <div class="mega-product-content">
+                                    <h4>Tier-Haushalte</h4>
+                                    <p>Weniger Tierhaare, weniger Gerüche, mehr Wohlbefinden.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="familien.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/familyHappy.png" alt="Familien"></div>
+                                <div class="mega-product-content">
+                                    <h4>Familien</h4>
+                                    <p>Sauber, gesund & stressfrei – auch im turbulenten Familienalltag.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Jetzt beraten lassen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#commercial" class="mega-toggle">Gewerbe</a>
+                    <div class="mega-menu" role="menu" aria-label="Gewerbe Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/RoomClean_home.png" alt="Hotel"></div>
+                                <div>
+                                    <div class="mega-cta-title">Professionelle Reinigungslösungen</div>
+                                    <div class="mega-cta-text">Für Hotels, Restaurants und Gewerbe: Effizienter, hygienischer, nachhaltiger.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Beratung anfragen <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="hotel.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/RoomClean_home.png" alt="Hotel"></div>
+                                <div class="mega-product-content">
+                                    <h4>Hotel & Gastronomie</h4>
+                                    <p>Professionelle Reinigung für Gästezimmer und Restaurants.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="airbnb.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Airbnb.png" alt="Airbnb"></div>
+                                <div class="mega-product-content">
+                                    <h4>Airbnb & Ferienwohnungen</h4>
+                                    <p>Schneller, hygienischer und günstiger reinigen.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Beratung für Gewerbe anfragen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#about" class="mega-toggle">Über uns</a>
+                    <div class="mega-menu" role="menu" aria-label="Über uns Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/familyHappy.png" alt="Dr. Sauber Team"></div>
+                                <div>
+                                    <div class="mega-cta-title">Werden Sie Teil von Dr. Sauber</div>
+                                    <div class="mega-cta-text">Entdecken Sie Ihre Möglichkeiten als Markenbotschafter oder Berater.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="karriere.html">Karriere starten <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="delphin-schweiz.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Dampfreiniger_Wohnzimmer.png" alt="Delphin Schweiz"></div>
+                                <div class="mega-product-content">
+                                    <h4>Delphin Schweiz</h4>
+                                    <p>Unser Partner für professionelle Reinigungslösungen.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="nachhaltigkeit.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/RoomClean_home.png" alt="Nachhaltigkeit"></div>
+                                <div class="mega-product-content">
+                                    <h4>Nachhaltigkeit</h4>
+                                    <p>Sauberkeit, die bleibt – gesund für Mensch, Tier und Natur.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="kontakt.html">Kontakt aufnehmen →</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="karriere.html">Karriere</a>
+                <a href="kontakt.html">Kontakt</a>
+                <button class="btn-cta">Jetzt beraten lassen</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Platzhalter für die importierten Template-Sections -->
+    <main id="home2-root" class="container" style="max-width:none; padding:0;">
+        <!-- START: Statisch eingebundene Sections aus dem Template (gekürzt) -->
+        <div class="chy-hero-2-area fix" data-background="template/choicy-html/assets/img/hero/h2-bg-img-1.png">
+            <div class="container chy-container-1">
+                <div class="chy-hero-2-wrap">
+                    <div class="chy-hero-2-slider">
+                        <div class="swiper-container chy_hero_2_active">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="chy-hero-2-item">
+                                        <div class="chy-hero-2-item-img">
+                                            <div class="main-img">
+                                                <img class="person-img" src="template/choicy-html/assets/img/hero/h2-img-1.png" alt="">
+                                                <img class="il-frame" src="template/choicy-html/assets/img/hero/h2-il-frame.png" alt="">
+                                            </div>
+                                            <img src="template/choicy-html/assets/img/hero/h2-il-1.png" class="il-img-1" alt="">
+                                            <img src="template/choicy-html/assets/img/hero/h2-il-2.png" class="il-img-2" alt="">
+                                            <img src="template/choicy-html/assets/img/hero/h2-il-3.png" class="il-img-3" alt="">
+                                        </div>
+                                        <div class="chy-hero-2-item-content">
+                                            <h3 class="chy-heading-1 hero-2-subtitle">Gesunde Reinigung</h3>
+                                            <h1 class="chy-heading-1 hero-2-title">Innovative</h1>
+                                            <h1 class="chy-heading-1 hero-2-title-2">Lösungen</h1>
+                                            <p class="chy-para-1 hero-2-disc">Chemiefreie Systeme für bessere Luft und weniger Aufwand.</p>
+                                            <a class="chy-pr-btn-3" href="#"><span class="text">Mehr erfahren</span><i class="far fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chy-hero-2-btn"><div class="chy_hero_2_prev"><i class="far fa-long-arrow-left"></i></div><div class="chy_hero_2_next"><i class="far fa-long-arrow-right"></i></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chy-trusted-2-area fix">
+            <div class="container chy-container-1">
+                <div class="chy-trusted-2-wrap pt-70 pb-100">
+                    <div class="row align-items-center">
+                        <div class="col-xl-5 col-lg-6 col-md-6">
+                            <div class="chy-trusted-2-content">
+                                <h4 class="chy-heading-1 title wow fadeInLeft">Warum Dr. Sauber</h4>
+                                <p class="chy-para-2 disc wow fadeInLeft" data-wow-delay=".2s">Gesünder reinigen, schneller fertig – ohne Chemie.</p>
+                                <div class="team-group wow fadeInLeft" data-wow-delay=".4s">
+                                    <h6 class="chy-heading-1 title">Zufriedene Kunden</h6>
+                                    <img src="template/choicy-html/assets/img/trusted/t2-group-img-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-6 col-md-6">
+                            <div class="chy-trusted-2-slider">
+                                <div class="swiper-container fix chy_trusted_2_active">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><div class="chy-trusted-2-slider-item"><div class="icon"><i class="flaticon-innovation-1"></i></div><h4 class="chy-heading-1 title">Wasserfiltration</h4><p class="chy-para-2 disc">Staub wird im Wasser gebunden.</p></div></div>
+                                        <div class="swiper-slide"><div class="chy-trusted-2-slider-item"><div class="icon has-bg"><i class="flaticon-lauch"></i></div><h4 class="chy-heading-1 title">Schneller sauber</h4><p class="chy-para-2 disc">Weniger Zeit, mehr Ergebnis.</p></div></div>
+                                    </div>
+                                </div>
+                                <div class="chy-trusted-2-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="animation-line"></span>
+            </div>
+        </div>
+        <!-- ENDE: Auszug. Weitere Sections können wir nachziehen. -->
+        
+        <!-- Services -->
+        <div class="chy-services-2-area pt-105 pb-180 fix">
+            <div class="container chy-container-1">
+                <div class="row g-0">
+                    <div class="col-xl-6">
+                        <div class="chy-services-2-item-wrap chy-class-add">
+                            <img src="template/choicy-html/assets/img/services/s2-star-icon.png" class="icon chyroted" alt="">
+                            <div class="chy-services-2-item"><div class="tilt_scale"><div class="icon"><i class="flaticon-business-people"></i></div><h5 class="chy-heading-1 title"><a href="#">Wasserfiltration</a></h5><p class="chy-para-2 disc">Staub wird im Wasser gebunden – saubere Luft.</p></div></div>
+                            <div class="chy-services-2-item"><div class="tilt_scale"><div class="icon"><i class="flaticon-open-mail"></i></div><h5 class="chy-heading-1 title"><a href="#">Raumluft</a></h5><p class="chy-para-2 disc">Gleichzeitige Luftreinigung beim Saugen.</p></div></div>
+                            <div class="chy-services-2-item"><div class="tilt_scale"><div class="icon"><i class="flaticon-time-management-1"></i></div><h5 class="chy-heading-1 title"><a href="#">Tiefenreinigung</a></h5><p class="chy-para-2 disc">Elektrobürste für Teppiche und Matratzen.</p></div></div>
+                            <div class="chy-services-2-item"><div class="tilt_scale"><div class="icon"><i class="flaticon-web-designing"></i></div><h5 class="chy-heading-1 title"><a href="#">Nasswischen & Fenster</a></h5><p class="chy-para-2 disc">Streifenfrei – ohne Eimer und Mittel.</p></div></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="chy-services-2-content">
+                            <div class="section-title-wrap mb-35">
+                                <h3 class="chy-subtitle-2 wow fadeInRight">Top Leistungen</h3>
+                                <h2 class="chy-title-2 chy-split-in-right-2 chy-split-text">Weniger Aufwand, gesünderes Zuhause</h2>
+                                <p class="chy-para-2 wow fadeInRight" data-wow-delay=".3s">Moderne Reinigungssysteme für Familien und Allergiker – ohne Chemie.</p>
+                            </div>
+                            <div class="chy-services-2-work mb-55"><img src="template/choicy-html/assets/img/services/s2-img-arrow.png" alt=""><div class="right"><h4 class="chy-heading-1 title">Beratungen</h4><h3 class="chy-heading-1 number"><span class="counter">1,500</span>+</h3></div></div>
+                            <a class="chy-pr-btn-3 wow fadeInUp" href="#"><span class="text">Mehr erfahren</span><i class="far fa-long-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Solutions -->
+        <div class="chy-solutions-2-area bg-default" data-background="template/choicy-html/assets/img/solutions/s2-bg-img-1.png">
+            <div class="container chy-container-1">
+                <div class="chy-solutions-2-wrap">
+                    <div class="chy-solutions-2-content">
+                        <div class="section-title-wrap mb-30"><h3 class="chy-subtitle-2 wow fadeInRight">Warum wir</h3><h2 class="chy-title-2 chy-split-in-right-2 chy-split-text">Nachhaltig sauber – ohne Chemie</h2><p class="chy-para-2 wow fadeInRight" data-wow-delay=".3s">Gesundheit, Effizienz und Komfort im Alltag.</p></div>
+                        <div class="inner-div mb-40"><img src="template/choicy-html/assets/img/solutions/s2-check-icon.png" class="certi-img chyroted" alt=""><ul class="solutions-2-list"><li class="wow fadeInUp"><i class="fas fa-arrow-alt-circle-right"></i> Weniger Staub und Allergene</li><li class="wow fadeInUp" data-wow-delay=".2s"><i class="fas fa-arrow-alt-circle-right"></i> Befeuchtete, frische Luft</li><li class="wow fadeInUp" data-wow-delay=".3s"><i class="fas fa-arrow-alt-circle-right"></i> Spürbar weniger Aufwand</li></ul></div>
+                        <a href="#" class="chy-pr-btn-3 wow fadeInUp" data-wow-delay=".6s"><span class="text">Mehr erfahren</span><i class="far fa-long-arrow-right"></i></a>
+                    </div>
+                    <div class="chy-solutions-2-counter-wrap">
+                        <div class="chy-solutions-2-counter wow fadeInUp"><h3 class="chy-heading-1 number"><span class="counter">12</span>k</h3><p class="chy-para-2 disc">Zufriedene Kunden</p></div>
+                        <div class="chy-solutions-2-counter wow fadeInUp" data-wow-delay=".3s"><h3 class="chy-heading-1 number"><span class="counter">70</span>%</h3><p class="chy-para-2 disc">Weniger Reinigungszeit</p></div>
+                    </div>
+                    <a aria-label="link" class="chy-plybtn-2 popup-video" href="https://www.youtube.com/watch?v=fgWoGHgEN38&start_radio=1"><i class="fas fa-play"></i><img class="text-img" src="template/choicy-html/assets/img/video/plybtn-text.png" alt=""></a>
+                    <img src="template/choicy-html/assets/img/solutions/s2-mobile-hand.png" class="hand-img" alt="">
+                    <img src="template/choicy-html/assets/img/solutions/s2-all-icon.png" class="all-icon" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Pricing (als Showcase) -->
+        <div class="chy-price-2-area pt-170 pb-130 fix">
+            <div class="section-title-wrap mb-35 text-center"><h3 class="chy-subtitle-2 wow fadeInRight"><img src="template/choicy-html/assets/img/icon/subtitle-icon.png" class="icon" alt=""> Pakete</h3><h2 class="chy-title-2 chy-split-in-right-2 chy-split-text">Finden Sie Ihre Lösung</h2></div>
+            <div class="chy-price-2-slider">
+                <div class="swiper-container fix chy_price_2_active">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><div class="chy-price-2-item"><div class="img-item-wrap"><div class="img-item img-cover"><img src="template/choicy-html/assets/img/price/p2-img-1.png" alt=""></div><div class="img-item-big img-cover"><img src="template/choicy-html/assets/img/price/p2-img-3.png" alt=""><span class="chy-heading-1 best">best</span></div></div><div class="content-wrap"><div class="list-wrap"><div class="price-wrap"><h3 class="chy-heading-1 title">Starter</h3><h4 class="chy-heading-1 price">ab 0€</h4></div><ul class="chy-price-2-list"><li class="chy-heading-2"><i class="fa-solid fa-circle-check"></i> Testphase</li><li class="chy-heading-2"><i class="fa-solid fa-circle-check"></i> Beratung</li></ul><span class="chy-para-2 month">Individuelle Angebote</span></div><a href="#" class="price-2-btn">Anfragen</a></div></div></div>
+                    </div>
+                </div>
+                <div class="chy-price-2-slider-btn"><div class="chy_price_2_prev"><i class="far fa-long-arrow-left"></i></div><div class="chy_price_2_next"><i class="far fa-long-arrow-right"></i></div></div>
+            </div>
+        </div>
+
+        <!-- Testimonial -->
+        <div class="chy-testimonial-2-area bg-default pt-100 pb-50 chyclip" data-background="template/choicy-html/assets/img/testimonial/t2-bg-img-1.png">
+            <div class="container chy-container-1">
+                <div class="chy-testimonial-2-slider mb-50"><div class="swiper-container fix chy_testimonial_2_active"><div class="swiper-wrapper"><div class="swiper-slide"><div class="chy-testimonial-2-item"><div class="main-img"><img src="template/choicy-html/assets/img/price/p2-img-1.png" alt=""></div><h4 class="chy-heading-1 comment">„Spürbar bessere Luft und weniger Aufwand – klare Empfehlung.“</h4><div class="person-wrap"><div class="icon"><i class="fas fa-quote-left"></i></div><div class="right"><h3 class="chy-heading-1 name">Familie K.</h3><p class="chy-para-2 bio">München</p></div></div></div></div></div></div><div class="chy-testimonial-2-pagination"></div></div>
+                <div class="chy-testimonial-2-logo"><img src="template/choicy-html/assets/img/testimonial/t2-logo-1.png" alt=""><img src="template/choicy-html/assets/img/testimonial/t2-logo-2.png" alt=""><img src="template/choicy-html/assets/img/testimonial/t2-logo-3.png" alt=""></div>
+            </div>
+        </div>
+
+        <!-- Research -->
+        <div class="chy-research-2-area pt-100 fix">
+            <div class="container chy-container-1">
+                <div class="row align-items-end">
+                    <div class="col-xl-6"><div class="chy-research-2-img"><div class="main-img asslideupcta d-block fix"><img src="template/choicy-html/assets/img/research/r2-img-1.png" class="d-block" alt=""></div><img class="img-icon chy-zoomout3" src="template/choicy-html/assets/img/research/r2-img-icon.png" alt=""></div></div>
+                    <div class="col-xl-6"><div class="chy-research-2-content"><div class="section-title-wrap mb-30"><h3 class="chy-subtitle-2 wow fadeInRight">Professioneller Ansatz</h3><h2 class="chy-title-2 chy-split-in-right-2 chy-split-text">Mehr Gesundheit, weniger Arbeit</h2><p class="chy-para-2 wow fadeInRight">Chemiefrei reinigen – spürbar besser leben.</p></div><ul class="chy-research-2-list mb-30"><li class="chy-heading-1 wow fadeInUp"><i class="fas fa-check-circle"></i> Weniger Reizstoffe</li><li class="chy-heading-1 wow fadeInUp" data-wow-delay=".2s"><i class="fas fa-check-circle"></i> Nachhaltige Sauberkeit</li></ul><a class="chy-pr-btn-3 wow fadeInUp" data-wow-delay=".8s" href="#"><span class="text">Mehr erfahren</span><i class="far fa-long-arrow-right"></i></a></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Marquee -->
+        <div class="chy-marquee-text-2-area fix pt-45 pb-45"><div class="chy-marquee-text-2-wrap"><h3 class="chy-heading-1 title">chemiefrei</h3><h3 class="chy-heading-1 title">gesund</h3><h3 class="chy-heading-1 title">effizient</h3></div></div>
+
+        <!-- Blog (Showcase) -->
+        <div class="chy-blog-2-area pt-130 pb-100"><div class="container chy-container-1"><div class="section-title-wrap mb-35 text-center"><h3 class="chy-subtitle-2 wow fadeInRight"><img src="template/choicy-html/assets/img/icon/subtitle-icon.png" class="icon" alt=""> Aktuelles</h3><h2 class="chy-title-2 chy-split-in-right-2 chy-split-text">Neuigkeiten & Tipps</h2></div><div class="row"><div class="col-xl-4 col-lg-6 col-md-6"><div class="chy-blog-2-item"><div class="main-img img-cover"><img src="template/choicy-html/assets/img/blog/b2-img-1.png" alt=""></div><span class="chy-heading-1 categorie">allergien</span><h2 class="chy-heading-1 title"><a href="#">Weniger Staub – besser atmen</a></h2></div></div><div class="col-xl-4 col-lg-6 col-md-6"><div class="chy-blog-2-item"><div class="main-img img-cover"><img src="template/choicy-html/assets/img/blog/b2-img-2.png" alt=""></div><span class="chy-heading-1 categorie">effizienz</span><h2 class="chy-heading-1 title"><a href="#">Schneller sauber im Alltag</a></h2></div></div><div class="col-xl-4 col-lg-6 col-md-6"><div class="chy-blog-2-item"><div class="main-img img-cover"><img src="template/choicy-html/assets/img/blog/b2-img-3.png" alt=""></div><span class="chy-heading-1 categorie">gesundheit</span><h2 class="chy-heading-1 title"><a href="#">Chemiefrei reinigen</a></h2></div></div></div></div></div>
+    </main>
+
+    <!-- Footer (unser) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/images/New/DRS-Logo 1 Kreis.png" alt="Dr. Sauber - Sauberkeit, Nachhaltigkeit, Gesundheit" class="footer-logo">
+                    <p>Staub- & chemiefreie Reinigungslösungen</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h5>Produkte</h5>
+                        <a href="wasserstaubsauger.html">Wasserstaubsauger</a>
+                        <a href="dampfreiniger.html">Dampfreiniger</a>
+                        <a href="#">Luftreiniger</a>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Service</h5>
+                        <a href="#">Beratung</a>
+                        <a href="workshop.html">Workshop</a>
+                        <a href="#">Support</a>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Kontakt</h5>
+                        <a href="#">Telefon</a>
+                        <a href="#">E-Mail</a>
+                        <a href="#">Standorte</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dr. Sauber. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Template JS libs (nur diese Seite) -->
+    <script src="template/choicy-html/assets/js/jquery-3.7.1.min.js"></script>
+    <script src="template/choicy-html/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="template/choicy-html/assets/js/gsap.min.js"></script>
+    <script src="template/choicy-html/assets/js/ScrollTrigger.min.js"></script>
+    <script src="template/choicy-html/assets/js/swiper-bundle.min.js"></script>
+    <script src="template/choicy-html/assets/js/odometer.min.js"></script>
+    <script src="template/choicy-html/assets/js/appear.min.js"></script>
+    <script src="template/choicy-html/assets/js/wow.js"></script>
+    <script src="template/choicy-html/assets/js/magnific-popup.min.js"></script>
+    <script src="template/choicy-html/assets/js/nice-select.min.js"></script>
+    <script src="template/choicy-html/assets/js/back-to-top.min.js"></script>
+    <script src="template/choicy-html/assets/js/main.js" id="choicy-main-js"></script>
+
+    <!-- Init Template-Interaktionen & Header-Scroll -->
+    <script>
+    (function() {
+        // Header Scroll Effekt wie gewohnt
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) { header.classList.add('scrolled'); } else { header.classList.remove('scrolled'); }
+        });
+        // Falls Choicy Main init Funktionen erwartet, nach DOM-Ready triggern
+        document.addEventListener('DOMContentLoaded', function(){
+            if (typeof WOW !== 'undefined') { try { new WOW().init(); } catch(e){} }
+        });
+    })();
+    </script>
+</body>
+</html>
+

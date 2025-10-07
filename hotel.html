@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel & Gastronomie Reinigungslösungen - Dr. Sauber</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="performance-optimizer.js" defer></script>
+</head>
+<body class="hotel-page">
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none;">
+                    <img src="assets/images/New/DRS-Logo 1 Kreis.png" alt="Dr. Sauber - Sauberkeit, Nachhaltigkeit, Gesundheit" class="logo-image">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Startseite</a>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#products" class="mega-toggle">Produkte</a>
+                    <div class="mega-menu" role="menu" aria-label="Produkte Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/New/Team_AdobeStock_221182721 mm.jpeg" alt="Professionelles Team - Kostenlose Beratung"></div>
+                                <div>
+                                    <div class="mega-cta-title">Gesünder reinigen – jetzt beraten lassen</div>
+                                    <div class="mega-cta-text">Kostenlos & unverbindlich: Wir finden die beste Lösung für Ihr Zuhause.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Kostenlose Beratung <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="wasserstaubsauger.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Wasserstaubsauger_Wohnzimmer.png" alt="Wasserstaubsauger"></div>
+                                <div class="mega-product-content">
+                                    <h4>Wasserstaubsauger</h4>
+                                    <p>Staub im Wasser binden – saubere Raumluft.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="dampfreiniger.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Dampfreiniger_Wohnzimmer.png" alt="Dampfreiniger"></div>
+                                <div class="mega-product-content">
+                                    <h4>Dampfreiniger</h4>
+                                    <p>Hygienisch sauber – ganz ohne Chemie.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="workshop.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Workshop_home.avif" alt="Workshop"></div>
+                                <div class="mega-product-content">
+                                    <h4>Workshop</h4>
+                                    <p>Kostenlos testen und smart reinigen lernen.</p>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Jetzt beraten lassen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#home" class="mega-toggle">Zu Hause</a>
+                    <div class="mega-menu" role="menu" aria-label="Zu Hause Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/New/Team_AdobeStock_221182721 mm.jpeg" alt="Professionelles Team - Lösungen für Tier-Haushalte"></div>
+                                <div>
+                                    <div class="mega-cta-title">Lösungen für Tier-Haushalte</div>
+                                    <div class="mega-cta-text">Weniger Tierhaare, weniger Gerüche – kostenlos beraten lassen.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Kostenlose Beratung <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="allergiker.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Mann_niesen_437423088 mm.jpeg" alt="Mann mit Allergiesymptomen - Allergiker"></div>
+                                <div class="mega-product-content">
+                                    <h4>Allergiker</h4>
+                                    <p>Besser atmen – weniger Allergiesymptome.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="tier-haushalte.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Paar_mit_Hund_420514730 mm.jpeg" alt="Tier-Haushalte"></div>
+                                <div class="mega-product-content">
+                                    <h4>Tier-Haushalte</h4>
+                                    <p>Weniger Tierhaare, weniger Gerüche, mehr Wohlbefinden.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="familien.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Familie_Küche_327423820 mm.jpg" alt="Glückliche Familie beim Kochen - Familien"></div>
+                                <div class="mega-product-content">
+                                    <h4>Familien</h4>
+                                    <p>Sauber, gesund & stressfrei – auch im turbulenten Familienalltag.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Jetzt beraten lassen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#commercial" class="mega-toggle">Gewerbe</a>
+                    <div class="mega-menu" role="menu" aria-label="Gewerbe Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/New/Team_AdobeStock_221182721 mm.jpeg" alt="Professionelles Team - Gewerbe-Lösungen"></div>
+                                <div>
+                                    <div class="mega-cta-title">Gewerbe-Lösungen – schneller sauber</div>
+                                    <div class="mega-cta-text">Zeitkritische Reinigung? Wir optimieren Equipment & Ablauf.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Beratung anfragen <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="airbnb.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Airbnb.png" alt="AirBnB & Ferienwohnungen"></div>
+                                <div class="mega-product-content">
+                                    <h4>AirBnB & Ferienwohnungen</h4>
+                                    <p>Schneller sauber, bessere Bewertungen.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="hotel.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Frau_Küche_332939142 mm.jpeg" alt="Frau in der Küche - Hotels & Gastronomie"></div>
+                                <div class="mega-product-content">
+                                    <h4>Hotels & Gastronomie</h4>
+                                    <p>Perfekte Frische für hohe Auslastung.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="#" onclick="document.querySelector('.btn-cta').click();return false;">Beratung für Gewerbe anfragen →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dropdown mega" aria-expanded="false">
+                    <a href="#about" class="mega-toggle">Über uns</a>
+                    <div class="mega-menu" role="menu" aria-label="Über uns Mega Menü">
+                        <div class="mega-grid">
+                            <div class="mega-cta-card">
+                                <div class="mega-cta-media"><img src="assets/images/New/Team_AdobeStock_221182721 mm.jpeg" alt="Professionelles Team - Werden Sie Teil von Dr. Sauber"></div>
+                                <div>
+                                    <div class="mega-cta-title">Werden Sie Teil von Dr. Sauber</div>
+                                    <div class="mega-cta-text">Entdecken Sie Ihre Möglichkeiten als Markenbotschafter oder Berater.</div>
+                                </div>
+                                <a class="mega-cta-btn" href="karriere.html">Karriere starten <span>→</span></a>
+                            </div>
+                            <a class="mega-product-card" href="gesundheitsbewusst.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Frau_Mädchen_334080516 mm.jpeg" alt="Frau und Mädchen springen fröhlich - Gesundheitsbewusst"></div>
+                                <div class="mega-product-content">
+                                    <h4>Gesundheitsbewusst</h4>
+                                    <p>Ein Zuhause, das Ihre Gesundheit stärkt.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="delphin-schweiz.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/Dampfreiniger_Wohnzimmer.png" alt="Delphin Schweiz"></div>
+                                <div class="mega-product-content">
+                                    <h4>Delphin Schweiz</h4>
+                                    <p>Unser Partner für professionelle Reinigungslösungen.</p>
+                                </div>
+                            </a>
+                            <a class="mega-product-card" href="nachhaltigkeit.html" role="menuitem">
+                                <div class="mega-product-media"><img src="assets/images/New/Frau_mit_Baby_188278666 mm.jpeg" alt="Frau mit Baby - Nachhaltigkeit"></div>
+                                <div class="mega-product-content">
+                                    <h4>Nachhaltigkeit</h4>
+                                    <p>Sauberkeit, die bleibt – gesund für Mensch, Tier und Natur.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="mega-footer">
+                            <a class="mega-cta" href="kontakt.html">Kontakt aufnehmen →</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="karriere.html">Karriere</a>
+                <a href="kontakt.html">Kontakt</a>
+                <button class="btn-cta">Jetzt beraten lassen</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section - Hotel -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        
+        <!-- Animated Background Elements -->
+        <div class="hero-animated-elements">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="particle-field"></div>
+        </div>
+        
+        <!-- Floating KPIs -->
+        <div class="hero-kpis">
+            <div class="kpi-item">
+                <div class="kpi-number">-42%</div>
+                <div class="kpi-label">Reinigungsaufwand</div>
+            </div>
+            <div class="kpi-item">
+                <div class="kpi-number">87%</div>
+                <div class="kpi-label">bewerten Sauberkeit</div>
+            </div>
+            <div class="kpi-item">
+                <div class="kpi-number">0%</div>
+                <div class="kpi-label">Chemie</div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text-container">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span class="badge-icon">✨</span>
+                        <span class="badge-text">Professionelle Hotellösungen</span>
+                    </div>
+                    <p class="subtitle">LÖSUNGEN FÜR DIE HOTELLERIE</p>
+                    <h2 class="hero-title">
+                        <span class="title-line">Sauberkeit, die begeistert –</span>
+                        <span class="title-highlight">mit 42% weniger</span>
+                        <span class="title-line">Aufwand</span>
+                    </h2>
+                    <p class="hero-description">
+                        Wenn die Zimmerreinigung zum Engpass wird, leidet nicht nur die Gästezufriedenheit, 
+                        sondern auch die Wirtschaftlichkeit. Mit den richtigen Reinigungslösungen erzielen Sie 
+                        perfekte Sauberkeit in weniger Zeit – nachhaltig, chemiefrei und besonders allergikerfreundlich.
+                    </p>
+                    <p class="hero-tagline">Kompromisslos sauber. Spürbar gesund. Deutlich weniger Aufwand.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary">
+                            <span class="btn-text">Jetzt beraten lassen</span>
+                        </button>
+                        <button class="btn-secondary">
+                            <span class="btn-text">Lösungen entdecken</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Hero Scroll Indicator -->
+        <div class="hero-scroll-indicator">
+            <div class="scroll-text">Mehr entdecken</div>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Beliebt Section -->
+    <section class="holistic-section">
+        <div class="container">
+            <div class="holistic-content">
+                <div class="holistic-text">
+                    <h3>Deshalb sind unsere Reinigungslösungen in der Hotellerie so beliebt</h3>
+                    <p>Sauberkeit ist für Hotelgäste entscheidend: 87 % nennen sie als wichtigstes Kriterium bei der Bewertung eines Hauses. Genau deshalb vertrauen immer mehr Hoteliers auf unsere innovativen Reinigungslösungen.</p>
+                    
+                    <p>Unsere Profi-Dampfreiniger entfernen Schmutz und Keime auf glatten Oberflächen – von Bad bis Fenster – schneller, gründlicher und hygienischer als herkömmliche Methoden. Ganz ohne den Einsatz von Chemie.</p>
+                    
+                    <p>Bei Teppichböden spielen unsere Wasserstaubsauger ihre Stärken aus: Sie reinigen nicht nur tief und effektiv, sondern binden auch Staub, Pollen und Allergene direkt im Wasser. Das sorgt für ein spürbar frisches Raumklima – ein Gefühl wie nach einem warmen Sommerregen.</p>
+                    
+                    <p>Auch für Ihr Team bedeutet das eine spürbare Entlastung: Weniger Aufwand bei der Reinigung und bis zu vier- bis sechsmal weniger Staubwischen. Denn der Staub, der sonst morgen auf Möbeln und Böden landen würde, wird heute schon aus der Luft entfernt.</p>
+                    
+                    <div class="holistic-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L2 7V10C2 16 6 20.5 12 22C18 20.5 22 16 22 10V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Gästezufriedenheit steigern</h4>
+                                <p>87% der Gäste bewerten Sauberkeit als wichtigstes Kriterium.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Wirtschaftlichkeit verbessern</h4>
+                                <p>Bis zu 42% weniger Reinigungsaufwand bei besserer Qualität.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Allergikerfreundlich</h4>
+                                <p>Besonders wichtig für Familien und gesundheitsbewusste Gäste.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-secondary holistic-btn">Persönliche Beratung anfragen</button>
+                </div>
+                
+                <div class="holistic-images">
+                    <div class="image-stack">
+                        <div class="main-image">
+                            <img src="assets/images/ChatGPT Image 14. Aug. 2025, 16_30_47.png" alt="Sauberes Hotelzimmer - professionelle Reinigung" class="holistic-main-img">
+                        </div>
+                        <div class="secondary-image">
+                            <img src="assets/images/New/Frau_Cafe_Bar_128907308 mm.jpeg" alt="Freundliche Barista im Café - professionelle Gastronomie" class="holistic-secondary-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="method-section">
+        <div class="container">
+            <div class="method-content glass-host">
+                <div class="glass-base"></div>
+                <div class="method-text glass-surface">
+                    <h3>Zimmerreinigung: Top-Kriterium bei Gästen – Engpass für Hotels</h3>
+                    <div class="video-placeholder">
+                        <div class="play-button">▶</div>
+                    </div>
+                </div>
+                <div class="method-info">
+                    <h4>Sauberkeit entscheidet über den Ruf eines Hauses – und kostet gleichzeitig immer mehr Ressourcen.</h4>
+                    <p>Für 87% der Gäste ist Sauberkeit das wichtigste Kriterium bei der Hotelbewertung. Kein anderer Faktor hat einen so starken Einfluss auf Zufriedenheit, Weiterempfehlung und Sternebewertungen.</p>
+                    
+                    <div class="method-points">
+                        <div class="point">
+                            <strong>Personalmangel und Zeitdruck.</strong> Die Zimmerreinigung wird zunehmend zum organisatorischen und wirtschaftlichen Engpass.
+                        </div>
+                        <div class="point">
+                            <strong>Höhere Ansprüche der Gäste.</strong> Moderne Gäste erwarten perfekte Sauberkeit bei gleichzeitig steigenden Hygieneanforderungen.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kriterien Section - Neue Layout-Struktur -->
+    <section class="commitment-section" style="padding: 6rem 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+        <div class="container">
+            <div class="commitment-layout" style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; max-width: 1200px; margin: 0 auto;">
+                
+                <!-- Text und Statistiken Links -->
+                <div class="commitment-content">
+                    <h3 style="font-size: 2.5rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1.5rem; line-height: 1.2;">
+                        Nicht nur wer reinigt zählt – <span style="color: var(--primary-turquoise);">sondern womit</span>
+                    </h3>
+                    <p style="font-size: 1.1rem; color: #6c757d; margin-bottom: 3rem; line-height: 1.6;">
+                        Moderne Zimmerreinigung braucht mehr als nur gute Mitarbeitende – sie braucht die richtigen Geräte. 
+                        In Zeiten von Fachkräftemangel und hohen Gästeansprüchen entscheiden Reinigungsgeräte über Effizienz und Qualität.
+                    </p>
+                    
+                    <!-- Statistik-Grid -->
+                    <div class="stats-commitment-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 3rem;">
+                        <div class="stat-commitment-item" style="text-align: center; padding: 2rem 1.5rem; background: white; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); position: relative; overflow: hidden;">
+                            <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--primary-turquoise);"></div>
+                            <div style="font-size: 2.5rem; font-weight: 800; color: var(--primary-blue); margin-bottom: 0.5rem;">87%</div>
+                            <div style="font-size: 0.9rem; color: #6c757d; font-weight: 500;">der Gäste bewerten<br>Sauberkeit als wichtigst</div>
+                        </div>
+                        
+                        <div class="stat-commitment-item" style="text-align: center; padding: 2rem 1.5rem; background: white; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); position: relative; overflow: hidden;">
+                            <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--primary-turquoise);"></div>
+                            <div style="font-size: 2.5rem; font-weight: 800; color: var(--primary-blue); margin-bottom: 0.5rem;">3</div>
+                            <div style="font-size: 0.9rem; color: #6c757d; font-weight: 500;">Entscheidende<br>Kriterien</div>
+                        </div>
+                        
+                        <div class="stat-commitment-item" style="text-align: center; padding: 2rem 1.5rem; background: white; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); position: relative; overflow: hidden; grid-column: 1 / -1;">
+                            <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--primary-turquoise);"></div>
+                            <div style="font-size: 2.5rem; font-weight: 800; color: var(--primary-blue); margin-bottom: 0.5rem;">42%</div>
+                            <div style="font-size: 0.9rem; color: #6c757d; font-weight: 500;">weniger Aufwand mit den richtigen Geräten</div>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA Button -->
+                    <button class="btn-primary" style="padding: 1rem 2rem; font-size: 1.1rem; border-radius: 50px;">
+                        Jetzt Geräte-Beratung anfragen
+                    </button>
+                </div>
+                
+                <!-- Bild Rechts -->
+                <div class="commitment-image" style="position: relative;">
+                    <div style="position: relative; border-radius: 30px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.15);">
+                        <img src="assets/images/Wasserstaubsauger_Wohnzimmer.png" alt="Wasserstaubsauger für professionelle Hotelreinigung" style="width: 100%; height: auto; display: block;">
+                    </div>
+                    
+                    <!-- Floating Badge - außerhalb des Bildes positioniert -->
+                                            <div style="position: absolute; bottom: -30px; right: 20px; background: linear-gradient(135deg, var(--primary-turquoise) 0%, var(--primary-blue) 100%); color: white; padding: 2rem 2.5rem; border-radius: 25px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.15); z-index: 10;">
+                            <div style="font-size: 2.2rem; font-weight: 800; margin-bottom: 0.5rem; line-height: 1;">42%</div>
+                            <div style="font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; opacity: 0.9;">weniger Reinigungsaufwand</div>
+                        </div>
+                </div>
+                
+            </div>
+            
+            <!-- Kriterien-Boxen unten -->
+            <div class="criteria-boxes" style="margin-top: 5rem;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                    
+                    <div class="criteria-box" style="background: white; padding: 2.5rem 2rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); text-align: center; position: relative; overflow: hidden; transition: transform 0.3s ease;">
+                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary-turquoise), var(--primary-blue));"></div>
+                        <div style="width: 60px; height: 60px; background: var(--primary-turquoise); border-radius: 15px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; color: white; font-size: 1.5rem;">✨</div>
+                        <h4 style="font-size: 1.3rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem;">Gründlichkeit</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 0.95rem;">Die Reinigung muss sichtbar und hygienisch sein – denn Sauberkeit ist einer der Hauptgründe für gute oder schlechte Bewertungen.</p>
+                    </div>
+                    
+                    <div class="criteria-box" style="background: white; padding: 2.5rem 2rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); text-align: center; position: relative; overflow: hidden; transition: transform 0.3s ease;">
+                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary-turquoise), var(--primary-blue));"></div>
+                        <div style="width: 60px; height: 60px; background: var(--primary-blue); border-radius: 15px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; color: white; font-size: 1.5rem;">🌿</div>
+                        <h4 style="font-size: 1.3rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem;">Chemiefrei & allergikerfreundlich</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 0.95rem;">Immer mehr Gäste reagieren sensibel. Wer auf chemiefreie Reinigung setzt, gewinnt Pluspunkte bei gesundheitsbewussten Gästen.</p>
+                    </div>
+                    
+                    <div class="criteria-box" style="background: white; padding: 2.5rem 2rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); text-align: center; position: relative; overflow: hidden; transition: transform 0.3s ease;">
+                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--primary-turquoise), var(--primary-blue));"></div>
+                        <div style="width: 60px; height: 60px; background: var(--primary-turquoise); border-radius: 15px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; color: white; font-size: 1.5rem;">⚡</div>
+                        <h4 style="font-size: 1.3rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem;">Effizienz</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 0.95rem;">Geräte müssen zeitsparend arbeiten und viele Aufgaben mit einem System lösen – für schnellere Abläufe bei gleichbleibend hoher Qualität.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- CSS für Hover-Effekte -->
+        <style>
+            .criteria-box:hover {
+                transform: translateY(-5px);
+            }
+            
+            @media (max-width: 768px) {
+                .commitment-layout {
+                    grid-template-columns: 1fr !important;
+                    gap: 3rem !important;
+                }
+                
+                .stats-commitment-grid {
+                    grid-template-columns: 1fr !important;
+                }
+                
+                .stat-commitment-item:last-child {
+                    grid-column: 1 !important;
+                }
+            }
+        </style>
+    </section>
+
+    <!-- Produkt-Sequenz 1 - Dampfreinigung -->
+    <section class="services-section card-stack">
+        <div class="container">
+            <div class="service-item">
+                <div class="service-content">
+                    <h3>Dampfreinigung: gründlich, chemiefrei, oberflächenschonend</h3>
+                    <p>Dampfreiniger arbeiten mit bis zu 180 °C heißem Trockendampf – überall dort, wo herkömmliche Methoden an ihre Grenzen stoßen. Sie reinigen hygienisch, ohne Nässefilm, der Materialien angreift oder Feuchtigkeit zurücklässt.</p>
+                    <p>Dampf beseitigt nicht nur Schmutz, sondern auch Keime, Bakterien und Milben – ohne aggressive Reinigungsmittel und ohne Schrubben. Schonend, effektiv und rückstandsfrei.</p>
+                    <p>Durch die fehlende Chemie entfällt für Ihre Mitarbeitende und Gäste ein großer Teil an gesundheitlicher Beanspruchung – es fühlt sich einfach besser an.</p>
+                    <a href="dampfreiniger.html" class="btn-secondary" style="text-decoration: none; display: inline-block;">Mehr über Dampfreinigung</a>
+                </div>
+                <div class="service-image">
+                    <img src="assets/images/Thermostar_home.webp" alt="Dampfreiniger für Hotels" class="service-product-image">
+                </div>
+            </div>
+
+            <div class="service-item reverse">
+                <div class="service-content">
+                    <h3>Wasserstaubsauger: Saubere Böden, reine Luft – und weniger Aufwand</h3>
+                    <p>Herkömmliche Staubsauger saugen nur einen Teil des Schmutzes – und wirbeln dabei feine Staubpartikel in die Luft. Diese setzen sich später auf Möbeln und Oberflächen ab. Wasserstaubsauger reinigen nicht nur gründlicher, sondern binden gleichzeitig Staub, Pollen und Allergene aus der Luft im Wasser.</p>
+                    <p>Durch die wie durch Regen oder Tau „gewaschene" Luft sinkt der Staubwisch-Bedarf um das 4- bis 6-fache. Zudem schaffen Sie ein gesünderes Umfeld für Mitarbeiter und Gäste. Hotels berichten nach der Umstellung häufig darüber, dass Gäste eine spürbar „andere Atmosphäre" wahrnehmen.</p>
+                    <p>Auch Matratzen lassen sich mit einem Wasserstaubsauger tiefenreinigen – eine Maßnahme, die nicht nur Allergiker überzeugt, sondern mit 10 Punkten zur Sterne-Klassifizierung beiträgt.</p>
+                    <a href="wasserstaubsauger.html" class="btn-secondary" style="text-decoration: none; display: inline-block;">Mehr über Wasserstaubsauger</a>
+                </div>
+                <div class="service-image">
+                    <img src="assets/images/Wasserstaubsauger_home.avif" alt="Wasserstaubsauger für Hotels" class="service-product-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prozess Section - Moderne 3-Box Layout -->
+    <section class="steps-section" style="padding: 6rem 0; background: #f8f9fa;">
+        <div class="container">
+            <h3 style="text-align: center; font-size: 2.5rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.2;">
+                In 3 Schritten zum <span style="color: var(--primary-turquoise);">chemiefreien Hotel</span>
+            </h3>
+            <p style="text-align: center; font-size: 1.2rem; color: #6c757d; margin-bottom: 4rem; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+                Unser bewährter Prozess führt Sie schnell und sicher zu einer gesünderen Reinigungslösung
+            </p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; max-width: 1200px; margin: 0 auto;">
+                
+                <!-- Step 1 -->
+                <div style="background: white; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.1)'">
+                    <div style="position: relative; height: 200px; overflow: hidden;">
+                        <img src="assets/images/New/Team_AdobeStock_221182721 mm.jpeg" alt="Professionelles Team - Kostenlose Beratung" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; top: 20px; left: 20px; background: var(--primary-turquoise); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">1</div>
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h4 style="font-size: 1.4rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.3;">Kostenlose Beratung</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 1rem;">Vereinbaren Sie eine unverbindliche und für Sie kostenlose Beratung mit unseren Reinigungsexperten.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div style="background: white; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.1)'">
+                    <div style="position: relative; height: 200px; overflow: hidden;">
+                        <img src="assets/images/Thermostar_home.webp" alt="Lösungen testen" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; top: 20px; left: 20px; background: var(--primary-blue); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">2</div>
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h4 style="font-size: 1.4rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.3;">Lösungen testen</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 1rem;">Testen Sie einige unserer Lösungen unverbindlich in Ihrem Hause.</p>
+                    </div>
+                </div>
+                
+                <!-- Step 3 -->
+                <div style="background: white; border-radius: 20px; box-shadow: 0 15px 40px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(0,0,0,0.15)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.1)'">
+                    <div style="position: relative; height: 200px; overflow: hidden;">
+                        <img src="assets/images/Wasserstaubsauger_Wohnzimmer.png" alt="Gesundes Hotel" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div style="position: absolute; top: 20px; left: 20px; background: var(--primary-turquoise); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">3</div>
+                    </div>
+                    <div style="padding: 2rem;">
+                        <h4 style="font-size: 1.4rem; font-weight: 700; color: var(--primary-blue); margin-bottom: 1rem; line-height: 1.3;">Gesundes Hotel</h4>
+                        <p style="color: #6c757d; line-height: 1.6; font-size: 1rem;">Genießen Sie mit Ihren Gästen ein staub- und chemiefreies Hotel – der Gesundheit zuliebe.</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-- CTA Button -->
+            <div style="text-align: center; margin-top: 4rem;">
+                <button class="btn-primary" style="padding: 1.2rem 3rem; font-size: 1.2rem; border-radius: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+                    Jetzt beraten lassen
+                </button>
+            </div>
+        </div>
+        
+        <!-- Responsive Design -->
+        <style>
+            @media (max-width: 768px) {
+                .steps-section div[style*="grid-template-columns"] {
+                    grid-template-columns: 1fr !important;
+                    gap: 2rem !important;
+                }
+            }
+        </style>
+    </section>
+
+    <!-- Effizienz Section -->
+    <section class="stats-section">
+        <div class="container">
+            <h3>Bis zu 42% Reinigungskosten sparen – bei besserer Sauberkeit</h3>
+            <p style="text-align: center; margin-bottom: 2rem;">Reinigung zählt zu den größten Kostenfaktoren in der Hotellerie. Mit der richtigen Ausrüstung lässt sich der Aufwand drastisch senken – laut Rückmeldungen unserer Kunden um bis zu 42%. Dampfreiniger und Wasserstaubsauger sorgen für messbare Effizienzgewinne – bei gleichzeitig höherer Reinigungsqualität und weniger Chemieeinsatz.</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; max-width: 1000px; margin: 0 auto; justify-items: center;">
+                <div class="stat-item glass-static">
+                    <div class="stat-number">-42%</div>
+                    <div class="stat-label">Reinigungskosten</div>
+                </div>
+                <div class="stat-item glass-static">
+                    <div class="stat-number">4-6x</div>
+                    <div class="stat-label">weniger Staubwischen</div>
+                </div>
+                <div class="stat-item glass-static">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Geräte für alles</div>
+                </div>
+                <div class="stat-item glass-static">
+                    <div class="stat-number">0%</div>
+                    <div class="stat-label">Chemie nötig</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Responsive Design nur für diese Section -->
+        <style>
+            @media (max-width: 1024px) {
+                .stats-section div[style*="repeat(4, 1fr)"] {
+                    grid-template-columns: repeat(2, 1fr) !important;
+                    gap: 1rem !important;
+                }
+            }
+            @media (max-width: 768px) {
+                .stats-section div[style*="repeat(4, 1fr)"] {
+                    grid-template-columns: 1fr !important;
+                }
+            }
+        </style>
+    </section>
+
+    <!-- Before After Comparison Section (weiter vor) -->
+    <section class="before-after-section" style="padding: 8rem 0 8rem 0;">
+        <div class="container">
+            <div class="comparison-wrapper grid-h1 horizontal" style="position: relative; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.15); max-width: 1200px; margin: 0 auto;">
+                <div class="comparison-image" style="height: 500px; width: 100%;">
+                    <img src="assets/images/dirty.png" alt="Vorher" class="before-image" style="height: 100%; width: 100%; object-fit: cover;">
+                    <img src="assets/images/RoomClean_home.png" alt="Nachher" class="after-image" style="height: 100%; width: 100%; object-fit: cover;">
+                </div>
+                        
+                        <!-- Vorher/Nachher Labels direkt im Bild -->
+                        <div style="position: absolute; top: 30px; left: 30px; background: rgba(3, 152, 158, 0.9); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; font-weight: 700; font-size: 1.1rem; backdrop-filter: blur(10px); box-shadow: 0 8px 25px rgba(0,0,0,0.2);">
+                            Vorher
+                        </div>
+                        <div style="position: absolute; top: 30px; right: 30px; background: rgba(3, 152, 158, 0.9); color: white; padding: 0.8rem 1.5rem; border-radius: 25px; font-weight: 700; font-size: 1.1rem; backdrop-filter: blur(10px); box-shadow: 0 8px 25px rgba(0,0,0,0.2);">
+                            Nachher
+                        </div>
+                        
+                        <div class="comparison-slider"><div class="slider-handle"><div class="handle-icon">↔</div></div><div class="slider-line"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marken Section -->
+    <section class="health-section">
+        <!-- Vollbild Video Hintergrund -->
+        <video class="health-video-background" autoplay muted loop playsinline>
+            <source src="assets/videos/Sauger_video_home.mp4" type="video/mp4">
+            <source src="assets/videos/Sauger_video_home.webm" type="video/webm">
+        </video>
+        
+        <!-- Video Overlay -->
+        <div class="health-video-overlay"></div>
+        
+        <!-- Content über dem Video -->
+        <div class="container">
+            <div class="health-content-overlay">
+                <div class="health-text-overlay">
+                    <h3>Dr. Sauber – Gesundheit beginnt Zuhause</h3>
+                    <p>Viele Beschwerden entstehen nicht im Körper selbst – sondern in dem System, in dem wir leben. Dies war die Inspiration hinter Dr. Sauber: Räume frei machen von Feinstaub, Chemikalien und belasteter Luft.</p>
+                    <p>Unsere Technologie unterstützt die natürlichen Selbstheilungskräfte des Körpers – ob zu Hause oder im gewerblichen Einsatz.</p>
+                    <p>Mit den Lösungen von Dr. Sauber schaffen Sie ein gesundes Umfeld, in dem sich Ihre Gäste wohlfühlen und entspannen können.</p>
+                    <button class="btn-primary">Mehr über Dr. Sauber</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" style="padding: 4rem 0; background: #f8f9fa;">
+        <div class="container">
+            <h3 style="text-align: center; margin-bottom: 3rem;">Häufige Fragen</h3>
+            <div class="faq-grid" style="display: grid; gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Wie groß ist die tatsächliche Zeitersparnis bei der Zimmerreinigung?</h4>
+                    <p>In der Praxis berichten Hotels von bis zu 42% weniger Reinigungsaufwand. Das liegt an mehreren Faktoren: effizientere Abläufe, weniger Gerätewechsel, keine Nachreinigung durch Chemierückstände – und langfristig weniger Staubwischen dank verbesserter Luftqualität.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Ist die Reinigung wirklich hygienisch genug – ganz ohne Chemie?</h4>
+                    <p>Ja. Dampfreinigung arbeitet mit bis zu 180°C heißem Trockendampf, der Keime, Bakterien und Milben effektiv abtötet. Gleichzeitig entstehen keine Rückstände, die empfindliche Oberflächen der Gäste belasten könnten.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Können wir mit diesen Geräten unsere Sterne-Klassifizierung verbessern?</h4>
+                    <p>Laut Kriterienkatalog der Deutschen Hotelklassifizierung erhalten Hotels 10 Zusatzpunkte, wenn Matratzen mindestens alle sechs Monate professionell gereinigt werden. Unsere Dampfreiniger ermöglichen eine hygienische, chemiefreie Tiefenreinigung – schnell und effektiv im laufenden Betrieb.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Was macht die Geräte besonders effizient im Hotelalltag?</h4>
+                    <p>Die Kombination aus Dampfreiniger und Wasserstaubsauger deckt nahezu alle Reinigungsbedarfe ab – von Fugen bis Matratzen, von Böden bis Glas. Gerätewechsel, Nachspülen oder Chemieeinsatz entfallen. Reinigungskräfte können ohne Umrüsten effizient durchgehend arbeiten.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Was bringt die Umstellung unseren Gästen?</h4>
+                    <p>Ein spürbar angenehmeres Raumklima, bessere Luftqualität, weniger Gerüche – und das Wissen, dass sie in einem Hotel übernachten, das auf Hygiene und Gesundheit Wert legt. Besonders Allergiker oder Familien mit Kindern schätzen das.</p>
+                </div>
+
+                <div class="faq-item glass-static" style="padding: 2rem; border-radius: 12px;">
+                    <h4 style="margin-bottom: 1rem; color: #2c3e50;">Ist die Anschaffung wirtschaftlich sinnvoll für kleinere Hotels?</h4>
+                    <p>Gerade für kleine bis mittlere Hotels lohnt sich die Investition: weniger Verbrauchsmaterialien, geringerer Zeitaufwand pro Reinigungseinheit und höhere Gästezufriedenheit führen zu spürbaren Einsparungen – und einem professionelleren Auftritt.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <div class="reviews-header">
+                <h3>Was Hoteliers über Dr. Sauber sagen</h3>
+                <button class="btn-secondary reviews-more-btn">Mehr Bewertungen</button>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-image">
+                        <img src="assets/images/familyHappy.png" alt="Hotelier" class="reviewer-img">
+                    </div>
+                    <div class="review-content">
+                        <div class="review-stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <blockquote class="review-text">
+                            "Unsere Gäste gratulieren uns zur neuen Atmosphäre im Haus – und wir selbst konnten den Reinigungsaufwand um 42% senken."
+                        </blockquote>
+                        <div class="reviewer-info">
+                            <strong>Thomas M.</strong> Hotelier, München
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-image">
+                        <img src="assets/images/Dampfreiniger_Wohnzimmer.png" alt="Hotelmanagerin" class="reviewer-img">
+                    </div>
+                    <div class="review-content">
+                        <div class="review-stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <blockquote class="review-text">
+                            "Endlich keine Chemie mehr in den Zimmern. Unsere Allergiker-Gäste sind begeistert und das Personal arbeitet viel entspannter."
+                        </blockquote>
+                        <div class="reviewer-info">
+                            <strong>Andrea K.</strong> Hotelmanagerin, Hamburg
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-image">
+                        <img src="assets/images/Workshop_home.avif" alt="Housekeeping-Leitung" class="reviewer-img">
+                    </div>
+                    <div class="review-content">
+                        <div class="review-stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <blockquote class="review-text">
+                            "Die Schulung war super. Jetzt schaffen wir mehr Zimmer in weniger Zeit – und die Qualität ist sogar besser geworden."
+                        </blockquote>
+                        <div class="reviewer-info">
+                            <strong>Maria S.</strong> Housekeeping-Leitung, Berlin
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="footer-cta">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h3>Bereit für effizientere Hotelreinigung?</h3>
+                    <p>Kontaktieren Sie uns für eine kostenlose Beratung oder testen Sie unsere Lösungen unverbindlich in Ihrem Hotel. Wir freuen uns darauf, Ihnen zu helfen.</p>
+                </div>
+                <div class="cta-buttons">
+                    <button class="btn-primary">Kostenlose Beratung</button>
+                    <button class="btn-secondary">Lösungen testen</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/images/New/DRS-Logo 1 Kreis.png" alt="Dr. Sauber - Sauberkeit, Nachhaltigkeit, Gesundheit" class="footer-logo">
+                    <p>Staub- & chemiefreie Reinigungslösungen</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h5>Produkte</h5>
+                        <a href="wasserstaubsauger.html">Wasserstaubsauger</a>
+                        <a href="dampfreiniger.html">Dampfreiniger</a>
+                        <a href="workshop.html">Workshop</a>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Gewerbe</h5>
+                        <a href="airbnb.html">AirBnB & Ferienwohnungen</a>
+                        <a href="hotel.html">Hotels & Gastronomie</a>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Rechtliches</h5>
+                        <a href="kontakt.html">Kontakt</a>
+                        <a href="impressum.html">Impressum</a>
+                        <a href="datenschutz.html">Datenschutz</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Sauber. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Vorher-Nachher Vergleich Schieberegler
+        document.addEventListener('DOMContentLoaded', function() {
+            const comparisonWrapper = document.querySelector('.comparison-wrapper');
+            if (!comparisonWrapper) return;
+            
+            const sliderHandle = document.querySelector('.slider-handle');
+            const beforeImage = document.querySelector('.before-image');
+            const afterImage = document.querySelector('.after-image');
+            const sliderLine = document.querySelector('.slider-line');
+            
+            let isDragging = false;
+            let startX = 0;
+            let startLeft = 0;
+            
+            // Maus-Events
+            sliderHandle.addEventListener('mousedown', startDragging);
+            document.addEventListener('mousemove', drag);
+            document.addEventListener('mouseup', stopDragging);
+            
+            // Touch-Events für Mobile
+            sliderHandle.addEventListener('touchstart', startDragging);
+            document.addEventListener('touchmove', drag);
+            document.addEventListener('touchend', stopDragging);
+            
+            // Klick auf Container
+            comparisonWrapper.addEventListener('click', handleClick);
+            
+            function startDragging(e) {
+                isDragging = true;
+                comparisonWrapper.classList.add('dragging');
+                
+                const clientX = e.type === 'mousedown' ? e.clientX : e.touches[0].clientX;
+                startX = clientX;
+                startLeft = parseFloat(sliderHandle.style.left) || 50;
+                
+                e.preventDefault();
+            }
+            
+            function drag(e) {
+                if (!isDragging) return;
+                
+                const clientX = e.type === 'mousemove' ? e.clientX : e.touches[0].clientX;
+                const rect = comparisonWrapper.getBoundingClientRect();
+                const newLeft = Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
+                
+                updateSlider(newLeft);
+                e.preventDefault();
+            }
+            
+            function stopDragging() {
+                isDragging = false;
+                comparisonWrapper.classList.remove('dragging');
+            }
+            
+            function handleClick(e) {
+                if (e.target === sliderHandle || e.target === sliderLine) return;
+                
+                const rect = comparisonWrapper.getBoundingClientRect();
+                const clickX = e.clientX - rect.left;
+                const newLeft = Math.max(0, Math.min(100, (clickX / rect.width) * 100));
+                
+                updateSlider(newLeft);
+            }
+            
+            function updateSlider(percentage) {
+                const clampedPercentage = Math.max(0, Math.min(100, percentage));
+                
+                // Schieberegler Position - Kompletter Slider bewegt sich
+                const sliderContainer = document.querySelector('.comparison-slider');
+                sliderContainer.style.left = clampedPercentage + '%';
+                
+                // Bild-Ausschnitte
+                beforeImage.style.clipPath = `polygon(0 0, ${clampedPercentage}% 0, ${clampedPercentage}% 100%, 0 100%)`;
+                afterImage.style.clipPath = `polygon(${clampedPercentage}% 0, 100% 0, 100% 100%, ${clampedPercentage}% 100%)`;
+            }
+            
+            // Initialisierung
+            updateSlider(50);
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            const heroSection = document.querySelector('.hero');
+            
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Seite beim Laden korrekt positionieren
+        window.addEventListener('load', function() {
+            // Verhindert automatisches Scrollen zu Elementen
+            window.scrollTo(0, 0);
+            
+            // Kleine Verzögerung für bessere Kompatibilität
+            setTimeout(function() {
+                window.scrollTo(0, 0);
+            }, 100);
+        });
+
+        // Auch bei DOMContentLoaded sicherstellen
+        document.addEventListener('DOMContentLoaded', function() {
+            window.scrollTo(0, 0);
+        });
+
+    </script>
+</body>
+</html>
