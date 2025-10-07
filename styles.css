@@ -330,10 +330,12 @@ input[type="reset"],
 
 
 .logo-image {
-    height: 88px;
+    height: 104px; /* größer */
     width: auto;
-    margin-top: 8px;   /* vertikaler Abstand oben */
-    margin-bottom: 8px;/* vertikaler Abstand unten */
+    margin-top: 0; /* oben bündig mit Header */
+    margin-bottom: 4px; /* kleinerer Abstand unten */
+    margin-left: 8px; /* leichter Seitenabstand links */
+    margin-right: 8px; /* leichter Seitenabstand rechts */
     transition: all 0.3s ease;
 }
 
@@ -983,7 +985,7 @@ input[type="reset"],
     left: 0;
     right: 0;
     bottom: 20px;
-    background-image: url('assets/images/New/Familie_Sofa_528178050 mm.jpg');
+    background-image: url('assets/images/New/Familie_Sofa_528178050 mm.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1442,6 +1444,84 @@ input[type="reset"],
 
 .btn-secondary:hover::before {
     width: 100%;
+}
+
+/* Brand Update: Entferne Türkis-Blau-Verläufe → solide Türkis, Text blau */
+
+/* Buttons: immer reines Türkis mit weißer Schrift, keine Verlaufseffekte */
+.btn-cta,
+.btn-primary,
+.play-button,
+.footer-cta {
+    background: var(--primary-turquoise) !important;
+    color: var(--white) !important;
+    border-color: var(--primary-turquoise) !important;
+}
+
+.btn-cta::before,
+.btn-primary::before {
+    display: none !important;
+}
+
+/* Sekundärbutton ebenfalls solide Türkis, ohne Overlay */
+.btn-secondary {
+    background: var(--primary-turquoise) !important;
+    color: var(--white) !important;
+    border-color: var(--primary-turquoise) !important;
+}
+
+.btn-secondary::before {
+    display: none !important;
+}
+
+.btn-secondary:hover {
+    background: var(--primary-turquoise) !important;
+    color: var(--white) !important;
+    border-color: var(--primary-turquoise) !important;
+}
+
+/* Deko-Linien und Balken: solide Türkis statt Verlauf */
+.nav > a::after,
+.step-item::before,
+.benefit-item::before {
+    background: var(--primary-turquoise) !important;
+}
+
+/* Nummern-Badges in Steps ohne Verlauf */
+.step-number {
+    background: var(--primary-turquoise) !important;
+    color: var(--white) !important;
+}
+
+/* Verlaufstext: immer blaue Schrift, ohne Background-Clip */
+.steps-section h3,
+.benefits-section h3,
+.steam-features-section h3,
+.section-title-gradient-fix {
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    -webkit-text-fill-color: var(--primary-blue) !important;
+    color: var(--primary-blue) !important;
+}
+
+/* Alle Icons: türkiser Kreis-Hintergrund, weiße Icons */
+.step-icon,
+.benefit-icon,
+.module-icon,
+.image-icon,
+.service-card-icon,
+.feature-icon {
+    background: var(--primary-turquoise) !important;
+    color: var(--white) !important;
+    -webkit-text-fill-color: var(--white) !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% !important;
+    padding: 10px;
 }
 
 .image-placeholder {
@@ -2104,7 +2184,7 @@ input[type="reset"],
 
 /* Statistics Section */
 .stats-section {
-    background: linear-gradient(135deg, var(--primary-blue), var(--primary-turquoise));
+    background: var(--primary-turquoise) !important;
     color: var(--white);
     padding: var(--spacing-xl) 0;
     text-align: center;
